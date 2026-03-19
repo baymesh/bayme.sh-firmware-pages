@@ -1,0 +1,10 @@
+{
+  "version": "2.7.21.2c6d8cc",
+  "build_date": "2026-03-19T06:34:13Z",
+  "targets": [
+    {
+      "board": "rak4631",
+      "firmware": "firmware-rak4631-2.7.21.2c6d8cc.uf2"
+    }
+  ]
+}
