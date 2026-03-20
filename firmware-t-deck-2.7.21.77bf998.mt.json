@@ -1,0 +1,97 @@
+{
+  "version": "2.7.21.77bf998",
+  "build_epoch": 1773964800,
+  "platformioTarget": "t-deck",
+  "mcu": "esp32s3",
+  "repo": "baymesh/firmware",
+  "files": [
+    {
+      "name": "firmware-t-deck-2.7.21.77bf998.elf",
+      "md5": "053e338d24e808525debf26950872653",
+      "bytes": 23404608
+    },
+    {
+      "name": "firmware-t-deck-2.7.21.77bf998.bin",
+      "md5": "d091318d394eb472a3d0150e338cdd3f",
+      "bytes": 2222832,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-deck-2.7.21.77bf998.factory.bin",
+      "md5": "71125dd398acbf50d5b9c67a92635452",
+      "bytes": 2288368
+    },
+    {
+      "name": "littlefs-t-deck-2.7.21.77bf998.bin",
+      "md5": "fb86b70a019fd9111ea85655a6d974c9",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 50,
+  "hwModelSlug": "T_DECK",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Deck",
+  "supportLevel": 1,
+  "images": [
+    "t-deck.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

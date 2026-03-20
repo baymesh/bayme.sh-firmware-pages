@@ -1,0 +1,61 @@
+{
+  "version": "2.7.21.77bf998",
+  "build_date": "2026-03-20T06:06:00Z",
+  "targets": [
+    {
+      "board": "rak4631",
+      "firmware": "firmware-rak4631-2.7.21.77bf998.uf2",
+      "type": "uf2"
+    },
+    {
+      "board": "rak11200",
+      "firmware": "firmware-rak11200-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "m5stack-core",
+      "firmware": "firmware-m5stack-core-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "rak11310",
+      "firmware": "firmware-rak11310-2.7.21.77bf998.uf2",
+      "type": "uf2"
+    },
+    {
+      "board": "heltec-v3",
+      "firmware": "firmware-heltec-v3-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "nano-g2-ultra",
+      "firmware": "firmware-nano-g2-ultra-2.7.21.77bf998.uf2",
+      "type": "uf2"
+    },
+    {
+      "board": "tlora-c6",
+      "firmware": "firmware-tlora-c6-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "station-g2",
+      "firmware": "firmware-station-g2-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "t-deck",
+      "firmware": "firmware-t-deck-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "heltec-hru-3601",
+      "firmware": "firmware-heltec-hru-3601-2.7.21.77bf998.factory.bin",
+      "type": "bin"
+    },
+    {
+      "board": "t-echo",
+      "firmware": "firmware-t-echo-2.7.21.77bf998.uf2",
+      "type": "uf2"
+    }
+  ]
+}
