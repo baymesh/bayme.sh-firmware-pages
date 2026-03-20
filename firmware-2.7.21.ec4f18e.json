@@ -1,0 +1,26 @@
+{
+  "version": "2.7.21.ec4f18e",
+  "build_date": "2026-03-20T05:41:24Z",
+  "targets": [
+    {
+      "board": "t-echo",
+      "firmware": "firmware-t-echo-2.7.21.ec4f18e.uf2",
+      "type": "uf2"
+    },
+    {
+      "board": "nano-g2-ultra",
+      "firmware": "firmware-nano-g2-ultra-2.7.21.ec4f18e.uf2",
+      "type": "uf2"
+    },
+    {
+      "board": "rak4631",
+      "firmware": "firmware-rak4631-2.7.21.ec4f18e.uf2",
+      "type": "uf2"
+    },
+    {
+      "board": "rak11310",
+      "firmware": "firmware-rak11310-2.7.21.ec4f18e.uf2",
+      "type": "uf2"
+    }
+  ]
+}
