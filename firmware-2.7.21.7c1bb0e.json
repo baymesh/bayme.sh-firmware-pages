@@ -1,0 +1,14 @@
+{
+  "version": "2.7.21.7c1bb0e",
+  "build_date": "2026-03-20T04:36:27Z",
+  "targets": [
+    {
+      "board": "rak4631",
+      "firmware": "firmware-rak4631-2.7.21.7c1bb0e.uf2"
+    },
+    {
+      "board": "rak11310",
+      "firmware": "firmware-rak11310-2.7.21.7c1bb0e.uf2"
+    }
+  ]
+}
