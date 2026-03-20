@@ -12,6 +12,10 @@ Remote configuration via signed HMAC packets.
 ### Hop Limit
 - HOP_MAX = 64
 
-## Supported Hardware
+### Defaults
+- Position broadcast: OFF by default
+- Node info: Uses regular hop limit
+- Channel slot: 49
 
-- RAK WisBlock 4631
+## ⚠️ Not Compatible with Standard Meshtastic
+This firmware is a custom fork. Only flash devices that will run Baymesh firmware.
