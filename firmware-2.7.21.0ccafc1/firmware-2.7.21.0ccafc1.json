@@ -1,0 +1,9 @@
+{
+  "version": "2.7.21.0ccafc1",
+  "targets": [
+    {
+      "board": "tlora-v2-1-1_6",
+      "platform": "esp32"
+    }
+  ]
+}
