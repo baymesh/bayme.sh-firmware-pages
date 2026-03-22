@@ -1,0 +1,9 @@
+{
+  "version": "2.7.21.27e5394",
+  "targets": [
+    {
+      "board": "tlora-v2-1-1_6",
+      "platform": "unknown"
+    }
+  ]
+}
