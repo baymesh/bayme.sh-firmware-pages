@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "bpi_picow_esp32_s3",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-bpi_picow_esp32_s3-2.7.21.8537d76.elf",
+      "md5": "5d3d7533447f868a064c242893e28553",
+      "bytes": 22408448
+    },
+    {
+      "name": "firmware-bpi_picow_esp32_s3-2.7.21.8537d76.bin",
+      "md5": "16594f400cd0feb9abb5919116d2a235",
+      "bytes": 2082496,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-bpi_picow_esp32_s3-2.7.21.8537d76.factory.bin",
+      "md5": "40acae13b9633cd708b7d4a30b61c55b",
+      "bytes": 2148032
+    },
+    {
+      "name": "littlefs-bpi_picow_esp32_s3-2.7.21.8537d76.bin",
+      "md5": "f3e3bcf7f17162b201b6107d17fd190f",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "bpi_picow_esp32_s3",
+  "activelySupported": false
+}

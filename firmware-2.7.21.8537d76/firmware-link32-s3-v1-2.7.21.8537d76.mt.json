@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "link32-s3-v1",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-link32-s3-v1-2.7.21.8537d76.elf",
+      "md5": "f79cef917769f4b2feefb2f8762a668a",
+      "bytes": 22434056
+    },
+    {
+      "name": "firmware-link32-s3-v1-2.7.21.8537d76.bin",
+      "md5": "3c67b12fcef58261f00d3a1b3c6e7e10",
+      "bytes": 2112160,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-link32-s3-v1-2.7.21.8537d76.factory.bin",
+      "md5": "d16728dd07e17726bcdaa4d3cc31ec46",
+      "bytes": 2177696
+    },
+    {
+      "name": "littlefs-link32-s3-v1-2.7.21.8537d76.bin",
+      "md5": "ebc685a343b6f7cedd9f7ab7342edea4",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "link32-s3-v1",
+  "activelySupported": false
+}

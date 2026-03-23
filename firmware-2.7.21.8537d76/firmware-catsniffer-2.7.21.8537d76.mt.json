@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "catsniffer",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-catsniffer-2.7.21.8537d76.elf",
+      "md5": "684cff4ee459f1623a1e8b06934bbcb4",
+      "bytes": 9764636
+    },
+    {
+      "name": "firmware-catsniffer-2.7.21.8537d76.bin",
+      "md5": "979006f95963aaa36713adc8a3113513",
+      "bytes": 840748,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-catsniffer-2.7.21.8537d76.uf2",
+      "md5": "ea8adfbb13c0cc2622431177a33cf513",
+      "bytes": 1681920
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2040",
+  "displayName": "catsniffer",
+  "activelySupported": false
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "CDEBYTE_E77-MBL",
+  "mcu": "stm32wle5cc",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-CDEBYTE_E77-MBL-2.7.21.8537d76.elf",
+      "md5": "3d2a7e38740e3230a49eeea48b5e1ae3",
+      "bytes": 7330860
+    },
+    {
+      "name": "firmware-CDEBYTE_E77-MBL-2.7.21.8537d76.bin",
+      "md5": "593bdd7e1ab110b2ee09a5980a60c095",
+      "bytes": 180436,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-CDEBYTE_E77-MBL-2.7.21.8537d76.hex",
+      "md5": "81d7bf2d8f3ae03f711b647daf91bf9e",
+      "bytes": 507581
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "stm32",
+  "displayName": "CDEBYTE_E77-MBL",
+  "activelySupported": false
+}

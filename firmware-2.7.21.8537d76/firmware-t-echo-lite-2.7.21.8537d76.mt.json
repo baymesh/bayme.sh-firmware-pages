@@ -1,0 +1,44 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "t-echo-lite",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-t-echo-lite-2.7.21.8537d76.elf",
+      "md5": "7991f709c076b9756e7ac034ed4f5f35",
+      "bytes": 1404844
+    },
+    {
+      "name": "firmware-t-echo-lite-2.7.21.8537d76.hex",
+      "md5": "405c50bbf2775fe00155c1452f5de6bb",
+      "bytes": 2038796
+    },
+    {
+      "name": "firmware-t-echo-lite-2.7.21.8537d76.uf2",
+      "md5": "65dd87d5b7bb2d8fa4423239a8bfe269",
+      "bytes": 1449984
+    },
+    {
+      "name": "firmware-t-echo-lite-2.7.21.8537d76-ota.zip",
+      "md5": "4e574bafd6a84d5c66d37d4626268e48",
+      "bytes": 725780
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 109,
+  "hwModelSlug": "T_ECHO_LITE",
+  "architecture": "nrf52840",
+  "activelySupported": false,
+  "displayName": "LILYGO T-Echo Lite",
+  "supportLevel": 1,
+  "images": [
+    "techo_lite.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true
+}

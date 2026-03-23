@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "rak3172",
+  "mcu": "stm32wle5ccu",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak3172-2.7.21.8537d76.elf",
+      "md5": "b8d8b81184cc62bac7bcab0cf0153381",
+      "bytes": 7329000
+    },
+    {
+      "name": "firmware-rak3172-2.7.21.8537d76.bin",
+      "md5": "971b0245687b72f11350a9d0db4a62fe",
+      "bytes": 180396,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak3172-2.7.21.8537d76.hex",
+      "md5": "8a6f17d27d1ec08e663ae09ec1fee42e",
+      "bytes": 507462
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "stm32",
+  "displayName": "rak3172",
+  "activelySupported": false
+}

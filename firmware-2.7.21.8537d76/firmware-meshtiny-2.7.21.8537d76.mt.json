@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "meshtiny",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-meshtiny-2.7.21.8537d76.elf",
+      "md5": "70f99e6654ef7bd2eff1746479690175",
+      "bytes": 1307476
+    },
+    {
+      "name": "firmware-meshtiny-2.7.21.8537d76.hex",
+      "md5": "61ded1fe7c947f92c5865442c488c419",
+      "bytes": 1886086
+    },
+    {
+      "name": "firmware-meshtiny-2.7.21.8537d76.uf2",
+      "md5": "b7fc1d78169ea78d6e5d7ce7a680b6f6",
+      "bytes": 1341440
+    },
+    {
+      "name": "firmware-meshtiny-2.7.21.8537d76-ota.zip",
+      "md5": "6f5c8bacf5ee01ca12a1b22750a295c6",
+      "bytes": 671471
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "meshtiny",
+  "activelySupported": false
+}

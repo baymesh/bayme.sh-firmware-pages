@@ -1,0 +1,44 @@
+{
+  "version": "2.7.21.8537d76",
+  "build_epoch": 1774224000,
+  "platformioTarget": "xiao_ble_30db",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-xiao_ble_30db-2.7.21.8537d76.elf",
+      "md5": "7bd5482b4f003e6a55aff0541f99108e",
+      "bytes": 1329676
+    },
+    {
+      "name": "firmware-xiao_ble_30db-2.7.21.8537d76.hex",
+      "md5": "ee0125b636357aea0d4e7e147a820d7d",
+      "bytes": 2006171
+    },
+    {
+      "name": "firmware-xiao_ble_30db-2.7.21.8537d76.uf2",
+      "md5": "407ad4a4274299c2876db707cda9989d",
+      "bytes": 1426432
+    },
+    {
+      "name": "firmware-xiao_ble_30db-2.7.21.8537d76-ota.zip",
+      "md5": "c497bde4a89f3f4cde2a78c5dfb95000",
+      "bytes": 714193
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 88,
+  "hwModelSlug": "XIAO_NRF52_KIT",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Seeed Xiao NRF52840 Kit",
+  "supportLevel": 1,
+  "images": [
+    "seeed_xiao_nrf52_kit.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true
+}
