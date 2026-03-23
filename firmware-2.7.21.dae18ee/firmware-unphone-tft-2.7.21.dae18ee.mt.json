@@ -1,0 +1,83 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "unphone-tft",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-unphone-tft-2.7.21.dae18ee.elf",
+      "md5": "22e797547664e967be8807d464388d9d",
+      "bytes": 25098500
+    },
+    {
+      "name": "firmware-unphone-tft-2.7.21.dae18ee.bin",
+      "md5": "62af319b865777a32304d1df600f0616",
+      "bytes": 3460272,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-unphone-tft-2.7.21.dae18ee.factory.bin",
+      "md5": "a5816c0adf3a988dffd2700c1efdf6bc",
+      "bytes": 3525808
+    },
+    {
+      "name": "littlefs-unphone-tft-2.7.21.dae18ee.bin",
+      "md5": "a6eb163d9c39fb676ad33f076113101b",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 59,
+  "hwModelSlug": "UNPHONE",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "unPhone",
+  "supportLevel": 3,
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "tlora-v3-3-0-tcxo",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tlora-v3-3-0-tcxo-2.7.21.dae18ee.elf",
+      "md5": "8e0a06b602c1e8dba9300bf03d2cdc9a",
+      "bytes": 20574836
+    },
+    {
+      "name": "firmware-tlora-v3-3-0-tcxo-2.7.21.dae18ee.bin",
+      "md5": "af4ff11c907378062831f95e55cb29d4",
+      "bytes": 2241872,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-v3-3-0-tcxo-2.7.21.dae18ee.factory.bin",
+      "md5": "ac982f71b01e13c2a702a39864054b6a",
+      "bytes": 2307408
+    },
+    {
+      "name": "littlefs-tlora-v3-3-0-tcxo-2.7.21.dae18ee.bin",
+      "md5": "646c4ee6fbf8b032a249493f07af34ec",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "tlora-v3-3-0-tcxo",
+  "activelySupported": false
+}

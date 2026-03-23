@@ -1,0 +1,96 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "heltec-wireless-paper",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-wireless-paper-2.7.21.dae18ee.elf",
+      "md5": "1c790948660964b4ed07f12ea47fee3d",
+      "bytes": 22273488
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-2.7.21.dae18ee.bin",
+      "md5": "ce957e9ee558fc7bc916335dc3c98a18",
+      "bytes": 2113856,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-2.7.21.dae18ee.factory.bin",
+      "md5": "9bc815a36f6a173f19dc1fb83e3ae246",
+      "bytes": 2179392
+    },
+    {
+      "name": "littlefs-heltec-wireless-paper-2.7.21.dae18ee.bin",
+      "md5": "c5aa4f19747619106bb0515008e3a723",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 49,
+  "hwModelSlug": "HELTEC_WIRELESS_PAPER",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Wireless Paper",
+  "supportLevel": 1,
+  "images": [
+    "heltec-wireless-paper.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "partitionScheme": "8MB"
+}

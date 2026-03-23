@@ -1,0 +1,96 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "rak_wismesh_tap_v2",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_tap_v2-2.7.21.dae18ee.elf",
+      "md5": "76ef64928100badf0962755fa2370342",
+      "bytes": 22571056
+    },
+    {
+      "name": "firmware-rak_wismesh_tap_v2-2.7.21.dae18ee.bin",
+      "md5": "bfb39f6c7938e67396c29421086f83b2",
+      "bytes": 2136848,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak_wismesh_tap_v2-2.7.21.dae18ee.factory.bin",
+      "md5": "2623c723c5f9e4f8e8bfe9832d26441c",
+      "bytes": 2202384
+    },
+    {
+      "name": "littlefs-rak_wismesh_tap_v2-2.7.21.dae18ee.bin",
+      "md5": "c9c8f7bd131c454a47254431557aa49f",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 116,
+  "hwModelSlug": "WISMESH_TAP_V2",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Tap V2",
+  "supportLevel": 1,
+  "images": [
+    "rak-wismesh-tap-v2.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "partitionScheme": "8MB"
+}

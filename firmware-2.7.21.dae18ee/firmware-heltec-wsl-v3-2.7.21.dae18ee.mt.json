@@ -1,0 +1,96 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "heltec-wsl-v3",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.21.dae18ee.elf",
+      "md5": "80efaa0af2831ac3ac2987dd0fb637f9",
+      "bytes": 22184040
+    },
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.21.dae18ee.bin",
+      "md5": "ee749f444ed6a85b900868fd54af3ffe",
+      "bytes": 2098816,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.21.dae18ee.factory.bin",
+      "md5": "260ebf96f8b16f8109ccdeab56519044",
+      "bytes": 2164352
+    },
+    {
+      "name": "littlefs-heltec-wsl-v3-2.7.21.dae18ee.bin",
+      "md5": "8ecc2ad5f2938d3cadafe22aa8b94534",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 44,
+  "hwModelSlug": "HELTEC_WSL_V3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Wireless Stick Lite V3",
+  "supportLevel": 1,
+  "images": [
+    "heltec-wsl-v3.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "partitionScheme": "8MB"
+}

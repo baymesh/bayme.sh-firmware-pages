@@ -1,0 +1,97 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "seeed-xiao-s3",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-seeed-xiao-s3-2.7.21.dae18ee.elf",
+      "md5": "c52bd444699e5e3e3abad8bab70bdf12",
+      "bytes": 22799460
+    },
+    {
+      "name": "firmware-seeed-xiao-s3-2.7.21.dae18ee.bin",
+      "md5": "011b6d5a0a6e8c946a1f68f090c70699",
+      "bytes": 2132160,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-seeed-xiao-s3-2.7.21.dae18ee.factory.bin",
+      "md5": "6cdb2d1d9cd40da462fb40ffa463461e",
+      "bytes": 2197696
+    },
+    {
+      "name": "littlefs-seeed-xiao-s3-2.7.21.dae18ee.bin",
+      "md5": "e1141beada39975fc125810fc37a3f16",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 81,
+  "hwModelSlug": "SEEED_XIAO_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Seeed Xiao ESP32-S3",
+  "supportLevel": 3,
+  "images": [
+    "seeed-xiao-s3.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

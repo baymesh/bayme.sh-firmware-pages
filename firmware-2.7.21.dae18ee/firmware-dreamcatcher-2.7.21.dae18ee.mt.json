@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "dreamcatcher",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-dreamcatcher-2.7.21.dae18ee.elf",
+      "md5": "3c48595413c769dcc4609a3796f5b969",
+      "bytes": 22521960
+    },
+    {
+      "name": "firmware-dreamcatcher-2.7.21.dae18ee.bin",
+      "md5": "c0d14bf72ab2f026797ba4caa933428c",
+      "bytes": 2156096,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-dreamcatcher-2.7.21.dae18ee.factory.bin",
+      "md5": "c1f245682318617558f135b9fa57c43a",
+      "bytes": 2221632
+    },
+    {
+      "name": "littlefs-dreamcatcher-2.7.21.dae18ee.bin",
+      "md5": "42eb4090963661743b30a19c3b3adb00",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "dreamcatcher",
+  "activelySupported": false
+}

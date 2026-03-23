@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.dae18ee",
+  "build_epoch": 1774224000,
+  "platformioTarget": "ME25LS01-4Y10TD_e-ink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-ME25LS01-4Y10TD_e-ink-2.7.21.dae18ee.elf",
+      "md5": "6eb8d82c469341b56f3cb4aa0ed1cf40",
+      "bytes": 1325236
+    },
+    {
+      "name": "firmware-ME25LS01-4Y10TD_e-ink-2.7.21.dae18ee.hex",
+      "md5": "72d6a3e5e4ce7b77c3331f09127428d2",
+      "bytes": 1925694
+    },
+    {
+      "name": "firmware-ME25LS01-4Y10TD_e-ink-2.7.21.dae18ee.uf2",
+      "md5": "a6220ad06e060283360703cc257068cd",
+      "bytes": 1369600
+    },
+    {
+      "name": "firmware-ME25LS01-4Y10TD_e-ink-2.7.21.dae18ee-ota.zip",
+      "md5": "29892f2f761337d34dab104f001bc6eb",
+      "bytes": 685633
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "ME25LS01-4Y10TD_e-ink",
+  "activelySupported": false
+}
