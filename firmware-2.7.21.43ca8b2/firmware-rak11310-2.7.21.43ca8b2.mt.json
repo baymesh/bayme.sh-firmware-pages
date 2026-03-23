@@ -1,0 +1,40 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "rak11310",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak11310-2.7.21.43ca8b2.elf",
+      "md5": "1c66824174ac2d81a9e7ffe4b495f39a",
+      "bytes": 10078932
+    },
+    {
+      "name": "firmware-rak11310-2.7.21.43ca8b2.bin",
+      "md5": "32f69e35475d47120a6fd783b30c913f",
+      "bytes": 1001388,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak11310-2.7.21.43ca8b2.uf2",
+      "md5": "7e50e1826d2b2ac130e6d831f9982f97",
+      "bytes": 2002944
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 26,
+  "hwModelSlug": "RAK11310",
+  "architecture": "rp2040",
+  "activelySupported": true,
+  "displayName": "RAK WisBlock 11310",
+  "supportLevel": 2,
+  "images": [
+    "rak11310.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

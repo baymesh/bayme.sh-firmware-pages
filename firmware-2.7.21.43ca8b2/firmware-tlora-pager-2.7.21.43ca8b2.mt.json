@@ -1,0 +1,97 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "tlora-pager",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tlora-pager-2.7.21.43ca8b2.elf",
+      "md5": "b26a967ec375cde321b6d52ef912964c",
+      "bytes": 23475464
+    },
+    {
+      "name": "firmware-tlora-pager-2.7.21.43ca8b2.bin",
+      "md5": "6d5d4fb3494f164fac14232906b6896e",
+      "bytes": 2391792,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-pager-2.7.21.43ca8b2.factory.bin",
+      "md5": "55f891d96bdb46dc771a4911ef5b94b2",
+      "bytes": 2457328
+    },
+    {
+      "name": "littlefs-tlora-pager-2.7.21.43ca8b2.bin",
+      "md5": "7208da58b428d015322a41338f40d127",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 103,
+  "hwModelSlug": "T_LORA_PAGER",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa Pager",
+  "supportLevel": 1,
+  "images": [
+    "lilygo-tlora-pager.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

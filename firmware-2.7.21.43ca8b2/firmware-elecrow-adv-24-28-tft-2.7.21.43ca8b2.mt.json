@@ -1,0 +1,98 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "elecrow-adv-24-28-tft",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-elecrow-adv-24-28-tft-2.7.21.43ca8b2.elf",
+      "md5": "e216b9f05476daa0216d59ec0c85bb39",
+      "bytes": 23239100
+    },
+    {
+      "name": "firmware-elecrow-adv-24-28-tft-2.7.21.43ca8b2.bin",
+      "md5": "5eadc25c8f9b7f736c2cbfcfef367a20",
+      "bytes": 3167920,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-elecrow-adv-24-28-tft-2.7.21.43ca8b2.factory.bin",
+      "md5": "31da05ec5a18bce418e7932a696718c0",
+      "bytes": 3233456
+    },
+    {
+      "name": "littlefs-elecrow-adv-24-28-tft-2.7.21.43ca8b2.bin",
+      "md5": "c1457c8860903d57f2aa9977f22c4bea",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 97,
+  "hwModelSlug": "CROWPANEL",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Crowpanel Adv 2.4/2.8 TFT",
+  "supportLevel": 1,
+  "images": [
+    "crowpanel_2_4.svg",
+    "crowpanel_2_8.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

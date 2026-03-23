@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "ME25LS01-4Y10TD",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-ME25LS01-4Y10TD-2.7.21.43ca8b2.elf",
+      "md5": "1abbce5e60b05ddc43c610eb17a37dac",
+      "bytes": 1319512
+    },
+    {
+      "name": "firmware-ME25LS01-4Y10TD-2.7.21.43ca8b2.hex",
+      "md5": "79354455de6583b066b8d407c9c78811",
+      "bytes": 1905309
+    },
+    {
+      "name": "firmware-ME25LS01-4Y10TD-2.7.21.43ca8b2.uf2",
+      "md5": "5c7fa4e04b14f1a5b1f3535ffad596f3",
+      "bytes": 1354752
+    },
+    {
+      "name": "firmware-ME25LS01-4Y10TD-2.7.21.43ca8b2-ota.zip",
+      "md5": "22d72d6bece7ede5d96fedd05ce04d2a",
+      "bytes": 678349
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "ME25LS01-4Y10TD",
+  "activelySupported": false
+}

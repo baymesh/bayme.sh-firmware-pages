@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "wio-t1000-s",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-wio-t1000-s-2.7.21.43ca8b2.elf",
+      "md5": "f083d65c4a9cd46caff76c190f504a65",
+      "bytes": 1331284
+    },
+    {
+      "name": "firmware-wio-t1000-s-2.7.21.43ca8b2.hex",
+      "md5": "9b5387a25c5a21ebc28569c1ae061527",
+      "bytes": 1998087
+    },
+    {
+      "name": "firmware-wio-t1000-s-2.7.21.43ca8b2.uf2",
+      "md5": "8cc908afcf06781e3df25eb5ae7e867c",
+      "bytes": 1420800
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "wio-t1000-s",
+  "activelySupported": false
+}

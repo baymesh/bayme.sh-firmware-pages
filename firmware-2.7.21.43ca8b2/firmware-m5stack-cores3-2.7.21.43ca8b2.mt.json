@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "m5stack-cores3",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-m5stack-cores3-2.7.21.43ca8b2.elf",
+      "md5": "f1657f46c505f6e6467e51bc3264a720",
+      "bytes": 22274844
+    },
+    {
+      "name": "firmware-m5stack-cores3-2.7.21.43ca8b2.bin",
+      "md5": "d97b516624a99c88098127a9c9f8b371",
+      "bytes": 2119568,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-m5stack-cores3-2.7.21.43ca8b2.factory.bin",
+      "md5": "1bcdcc10d986584b60e7ef3581272f1f",
+      "bytes": 2185104
+    },
+    {
+      "name": "littlefs-m5stack-cores3-2.7.21.43ca8b2.bin",
+      "md5": "2915f5bb0f823764a6451317f8f88425",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "m5stack-cores3",
+  "activelySupported": false
+}

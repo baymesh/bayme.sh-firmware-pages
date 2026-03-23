@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "t-echo-inkhud",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-t-echo-inkhud-2.7.21.43ca8b2.elf",
+      "md5": "241bb10ef1dc911044447bd31a617b91",
+      "bytes": 1289364
+    },
+    {
+      "name": "firmware-t-echo-inkhud-2.7.21.43ca8b2.hex",
+      "md5": "e70e96b7c03e7d24f18b347fa536f6aa",
+      "bytes": 1902024
+    },
+    {
+      "name": "firmware-t-echo-inkhud-2.7.21.43ca8b2.uf2",
+      "md5": "f41c8542b8d40f8276a5ad2e229e86ff",
+      "bytes": 1352704
+    },
+    {
+      "name": "firmware-t-echo-inkhud-2.7.21.43ca8b2-ota.zip",
+      "md5": "edc3703a4a1cd2f20ca12f74cd8c41ff",
+      "bytes": 677168
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "t-echo-inkhud",
+  "activelySupported": false
+}

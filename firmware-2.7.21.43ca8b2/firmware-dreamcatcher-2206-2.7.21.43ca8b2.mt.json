@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "dreamcatcher-2206",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-dreamcatcher-2206-2.7.21.43ca8b2.elf",
+      "md5": "a1e3abb652032dfd32dead0e2f1e7a5a",
+      "bytes": 22318204
+    },
+    {
+      "name": "firmware-dreamcatcher-2206-2.7.21.43ca8b2.bin",
+      "md5": "11baac13bd94d6efe61fb7197125bd3e",
+      "bytes": 2119952,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-dreamcatcher-2206-2.7.21.43ca8b2.factory.bin",
+      "md5": "4158f08805d2f6c3a856f410d907390b",
+      "bytes": 2185488
+    },
+    {
+      "name": "littlefs-dreamcatcher-2206-2.7.21.43ca8b2.bin",
+      "md5": "5e2f7f168948c632ff758bfb9bb64cac",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "dreamcatcher-2206",
+  "activelySupported": false
+}

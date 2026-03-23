@@ -1,0 +1,83 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "tlora-v1",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tlora-v1-2.7.21.43ca8b2.elf",
+      "md5": "e69c2c78742724dcdcdd25c12bbf313b",
+      "bytes": 20469160
+    },
+    {
+      "name": "firmware-tlora-v1-2.7.21.43ca8b2.bin",
+      "md5": "8d77d5ccb888bf9d23b0a085b97b8633",
+      "bytes": 2235968,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-v1-2.7.21.43ca8b2.factory.bin",
+      "md5": "ffdec30a2172da6b97115e62f146457f",
+      "bytes": 2301504
+    },
+    {
+      "name": "littlefs-tlora-v1-2.7.21.43ca8b2.bin",
+      "md5": "cdbb09b11e80661b4b4ca1d64d1e7345",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 2,
+  "hwModelSlug": "TLORA_V1",
+  "architecture": "esp32",
+  "activelySupported": false,
+  "displayName": "LILYGO T-LoRa V1",
+  "tags": [
+    "LilyGo"
+  ]
+}

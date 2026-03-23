@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "radiomaster_900_bandit",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit-2.7.21.43ca8b2.elf",
+      "md5": "1e1576b42490e1f846cd87f2ce424f2e",
+      "bytes": 20721940
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit-2.7.21.43ca8b2.bin",
+      "md5": "81b5bf3d9301721e83aaaecd99cc35d0",
+      "bytes": 2210576,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit-2.7.21.43ca8b2.factory.bin",
+      "md5": "e57f136f3e49fef7e7100f9359fdb666",
+      "bytes": 2276112
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit-2.7.21.43ca8b2.bin",
+      "md5": "10425caff2992ae51ec41ec09ea8e8e5",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "radiomaster_900_bandit",
+  "activelySupported": false
+}

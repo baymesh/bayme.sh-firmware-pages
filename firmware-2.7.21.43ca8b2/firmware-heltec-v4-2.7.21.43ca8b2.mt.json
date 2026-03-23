@@ -1,0 +1,97 @@
+{
+  "version": "2.7.21.43ca8b2",
+  "build_epoch": 1774224000,
+  "platformioTarget": "heltec-v4",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-v4-2.7.21.43ca8b2.elf",
+      "md5": "c31b97d753cf9f4171fb8afb3c80be0f",
+      "bytes": 22343020
+    },
+    {
+      "name": "firmware-heltec-v4-2.7.21.43ca8b2.bin",
+      "md5": "13c7dc4c505369cb8259a59f621ea8bd",
+      "bytes": 2116976,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-v4-2.7.21.43ca8b2.factory.bin",
+      "md5": "55a6a6147c4d292c774765a62ea277a1",
+      "bytes": 2182512
+    },
+    {
+      "name": "littlefs-heltec-v4-2.7.21.43ca8b2.bin",
+      "md5": "01e494d60eae48cd4dc899abd5c2c6fe",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 110,
+  "hwModelSlug": "HELTEC_V4",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec V4",
+  "supportLevel": 1,
+  "images": [
+    "heltec_v4.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}
