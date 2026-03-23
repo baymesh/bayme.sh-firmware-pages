@@ -1,0 +1,97 @@
+{
+  "version": "2.7.21.12df092",
+  "build_epoch": 1773964800,
+  "platformioTarget": "heltec-v3",
+  "mcu": "esp32s3",
+  "repo": "baymesh/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-v3-2.7.21.12df092.elf",
+      "md5": "4c4c50ab05042deb1fcccfeaaa2c263e",
+      "bytes": 22177860
+    },
+    {
+      "name": "firmware-heltec-v3-2.7.21.12df092.bin",
+      "md5": "d43e0821fbf213bb73d51e404df90c7e",
+      "bytes": 2093984,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-v3-2.7.21.12df092.factory.bin",
+      "md5": "8eff2e0f8c0961981920e8c742f814f1",
+      "bytes": 2159520
+    },
+    {
+      "name": "littlefs-heltec-v3-2.7.21.12df092.bin",
+      "md5": "f8d3ec903fb0f4a4791aea0709eb6c42",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 43,
+  "hwModelSlug": "HELTEC_V3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec V3",
+  "supportLevel": 1,
+  "images": [
+    "heltec-v3.svg",
+    "heltec-v3-case.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "partitionScheme": "8MB"
+}
