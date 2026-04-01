@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "CDEBYTE_EoRa-Hub",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-CDEBYTE_EoRa-Hub-2.7.21.95a4c27.elf",
+      "md5": "93d9f445346cbbe4cd4c0b9e8017df9c",
+      "bytes": 22239188
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-Hub-2.7.21.95a4c27.bin",
+      "md5": "eeddf2674cd6f36ceac1a4f2f98e507e",
+      "bytes": 2095968,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-Hub-2.7.21.95a4c27.factory.bin",
+      "md5": "0f205c28ea8767b82d6cf9c3d5606f19",
+      "bytes": 2161504
+    },
+    {
+      "name": "littlefs-CDEBYTE_EoRa-Hub-2.7.21.95a4c27.bin",
+      "md5": "c3e5e030775de1ab6527bda4954752e5",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "CDEBYTE_EoRa-Hub",
+  "activelySupported": false
+}

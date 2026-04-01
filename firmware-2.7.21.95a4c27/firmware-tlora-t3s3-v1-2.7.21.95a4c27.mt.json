@@ -1,0 +1,88 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "tlora-t3s3-v1",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tlora-t3s3-v1-2.7.21.95a4c27.elf",
+      "md5": "02554cff2a447ee34b650bdf58f562d2",
+      "bytes": 23462252
+    },
+    {
+      "name": "firmware-tlora-t3s3-v1-2.7.21.95a4c27.bin",
+      "md5": "539a9001d32f0fe5365ef18cc9988ec2",
+      "bytes": 2302528,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-t3s3-v1-2.7.21.95a4c27.factory.bin",
+      "md5": "5ae88c1a9a5ed6d4c1df2f7cbcf242c7",
+      "bytes": 2368064
+    },
+    {
+      "name": "littlefs-tlora-t3s3-v1-2.7.21.95a4c27.bin",
+      "md5": "d28f07014a1820cc69444883c22f4768",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 16,
+  "hwModelSlug": "TLORA_T3_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa T3-S3",
+  "supportLevel": 1,
+  "images": [
+    "tlora-t3s3-v1.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true
+}

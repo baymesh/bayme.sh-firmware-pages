@@ -1,0 +1,87 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "rak11200",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak11200-2.7.21.95a4c27.elf",
+      "md5": "754aaebe0f3b3e2513a7d1263748c917",
+      "bytes": 17790648
+    },
+    {
+      "name": "firmware-rak11200-2.7.21.95a4c27.bin",
+      "md5": "a1626a99b51a9033e66e6b53c2aac235",
+      "bytes": 1842336,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak11200-2.7.21.95a4c27.factory.bin",
+      "md5": "4cce416f71b3693236d6c70de4866704",
+      "bytes": 1907872
+    },
+    {
+      "name": "littlefs-rak11200-2.7.21.95a4c27.bin",
+      "md5": "595a8c00039a03b32dee23de9f3a5d67",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 13,
+  "hwModelSlug": "RAK11200",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "RAK WisBlock 11200",
+  "supportLevel": 3,
+  "images": [
+    "rak11200.svg"
+  ],
+  "tags": [
+    "RAK"
+  ]
+}

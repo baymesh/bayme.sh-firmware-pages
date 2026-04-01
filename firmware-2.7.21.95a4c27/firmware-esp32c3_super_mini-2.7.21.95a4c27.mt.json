@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "esp32c3_super_mini",
+  "mcu": "esp32c3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-esp32c3_super_mini-2.7.21.95a4c27.elf",
+      "md5": "cd1bd15a2b778ec2eae32ef69c49fdec",
+      "bytes": 19698484
+    },
+    {
+      "name": "firmware-esp32c3_super_mini-2.7.21.95a4c27.bin",
+      "md5": "b6646941254c1b3601be050c0394e4d9",
+      "bytes": 2371456,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-esp32c3_super_mini-2.7.21.95a4c27.factory.bin",
+      "md5": "170266d98cecba4efeba644c6416cbf9",
+      "bytes": 2436992
+    },
+    {
+      "name": "littlefs-esp32c3_super_mini-2.7.21.95a4c27.bin",
+      "md5": "60c6bf6de113754b910c7d9dccae8f56",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-c3",
+  "displayName": "esp32c3_super_mini",
+  "activelySupported": false
+}

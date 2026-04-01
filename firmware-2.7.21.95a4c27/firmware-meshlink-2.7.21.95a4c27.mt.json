@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "meshlink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-meshlink-2.7.21.95a4c27.elf",
+      "md5": "a6777636ecce48b1b81c9011e7518c83",
+      "bytes": 1331124
+    },
+    {
+      "name": "firmware-meshlink-2.7.21.95a4c27.hex",
+      "md5": "be5faa0eeff471e6a02125d1a1f8fd4d",
+      "bytes": 2009051
+    },
+    {
+      "name": "firmware-meshlink-2.7.21.95a4c27.uf2",
+      "md5": "4ec9a7472e7b935369407c70417cdcb5",
+      "bytes": 1428480
+    },
+    {
+      "name": "firmware-meshlink-2.7.21.95a4c27-ota.zip",
+      "md5": "45f71f9b6b91530aa7274a438ec8a6ed",
+      "bytes": 715186
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "meshlink",
+  "activelySupported": false
+}

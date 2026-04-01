@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "rak4631_eink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak4631_eink-2.7.21.95a4c27.elf",
+      "md5": "50d2afdf4a4485246c0ad792d2ac4590",
+      "bytes": 1411152
+    },
+    {
+      "name": "firmware-rak4631_eink-2.7.21.95a4c27.hex",
+      "md5": "111f67d2bc460c3dd61375ffe8d2ae37",
+      "bytes": 2062646
+    },
+    {
+      "name": "firmware-rak4631_eink-2.7.21.95a4c27.uf2",
+      "md5": "7b927791330c9a3fc083e57c93b56143",
+      "bytes": 1466880
+    },
+    {
+      "name": "firmware-rak4631_eink-2.7.21.95a4c27-ota.zip",
+      "md5": "a52f7ac5232a48502779d70b20dc9031",
+      "bytes": 734267
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "rak4631_eink",
+  "activelySupported": false
+}

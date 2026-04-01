@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "hackerboxes-esp32-io",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-hackerboxes-esp32-io-2.7.21.95a4c27.elf",
+      "md5": "70e63476ab0632acb1bfd019c8b136ff",
+      "bytes": 19982596
+    },
+    {
+      "name": "firmware-hackerboxes-esp32-io-2.7.21.95a4c27.bin",
+      "md5": "e34751ea8bd5faf25bb3bbf69496be9b",
+      "bytes": 2015520,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-hackerboxes-esp32-io-2.7.21.95a4c27.factory.bin",
+      "md5": "0c5cc92c422cb40085740e929d0eb939",
+      "bytes": 2081056
+    },
+    {
+      "name": "littlefs-hackerboxes-esp32-io-2.7.21.95a4c27.bin",
+      "md5": "d7db21c27897676b04992164fb553716",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "hackerboxes-esp32-io",
+  "activelySupported": false
+}

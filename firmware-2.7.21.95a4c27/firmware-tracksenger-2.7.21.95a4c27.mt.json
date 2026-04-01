@@ -1,0 +1,91 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "tracksenger",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tracksenger-2.7.21.95a4c27.elf",
+      "md5": "9daa3fc4ec8713ac7a4f795a5441e103",
+      "bytes": 23052884
+    },
+    {
+      "name": "firmware-tracksenger-2.7.21.95a4c27.bin",
+      "md5": "bace37378b2ceecc7f70c88b8ee010a4",
+      "bytes": 2178576,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tracksenger-2.7.21.95a4c27.factory.bin",
+      "md5": "ff5e2c89c25557107a9fe0d0dd4a9f99",
+      "bytes": 2244112
+    },
+    {
+      "name": "littlefs-tracksenger-2.7.21.95a4c27.bin",
+      "md5": "6aac1d1111c17ada57d11450bbd1343d",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 48,
+  "hwModelSlug": "HELTEC_WIRELESS_TRACKER",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "TrackSenger (small TFT)",
+  "supportLevel": 3,
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

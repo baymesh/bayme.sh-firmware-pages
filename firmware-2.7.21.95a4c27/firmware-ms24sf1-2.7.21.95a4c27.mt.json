@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.95a4c27",
+  "build_epoch": 1775001600,
+  "platformioTarget": "ms24sf1",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-ms24sf1-2.7.21.95a4c27.elf",
+      "md5": "ac45d7da2bf477db58048a3ce599b085",
+      "bytes": 1321344
+    },
+    {
+      "name": "firmware-ms24sf1-2.7.21.95a4c27.hex",
+      "md5": "c73498ae1b81ebdba1791265a41d6f90",
+      "bytes": 1923444
+    },
+    {
+      "name": "firmware-ms24sf1-2.7.21.95a4c27.uf2",
+      "md5": "10a66fff7e97d646a635f0f5f2de059e",
+      "bytes": 1368064
+    },
+    {
+      "name": "firmware-ms24sf1-2.7.21.95a4c27-ota.zip",
+      "md5": "a02db5a3d85d31bbc2f2e290316e9f7f",
+      "bytes": 684749
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "ms24sf1",
+  "activelySupported": false
+}
