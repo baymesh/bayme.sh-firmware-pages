@@ -1,0 +1,89 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "t-deck-pro",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-t-deck-pro-2.7.21.b14af14.elf",
+      "md5": "05e4676ae83f9e7198b4dd3df2565774",
+      "bytes": 22355460
+    },
+    {
+      "name": "firmware-t-deck-pro-2.7.21.b14af14.bin",
+      "md5": "8fd3dc7e94538613e4a24867a08ae337",
+      "bytes": 2146960,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-deck-pro-2.7.21.b14af14.factory.bin",
+      "md5": "26fb0a57f05b4cf58642a338ba1e3ab5",
+      "bytes": 2212496
+    },
+    {
+      "name": "littlefs-t-deck-pro-2.7.21.b14af14.bin",
+      "md5": "d2a7b3a0cf1440d9a2c3f893b2136e8f",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 102,
+  "hwModelSlug": "T_DECK_PRO",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Deck Pro",
+  "supportLevel": 1,
+  "images": [
+    "tdeck_pro.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

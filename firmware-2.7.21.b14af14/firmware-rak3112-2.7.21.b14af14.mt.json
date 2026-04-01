@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "rak3112",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak3112-2.7.21.b14af14.elf",
+      "md5": "4d851559a073b30c5b1be2556e8453a7",
+      "bytes": 22565716
+    },
+    {
+      "name": "firmware-rak3112-2.7.21.b14af14.bin",
+      "md5": "25211a0860d29d8d09b6addf1b638a1f",
+      "bytes": 2132512,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak3112-2.7.21.b14af14.factory.bin",
+      "md5": "5a0ab1ddb577fd3e9f2f33a725a37c96",
+      "bytes": 2198048
+    },
+    {
+      "name": "littlefs-rak3112-2.7.21.b14af14.bin",
+      "md5": "3dc9428a21a904e5f3370c4b2561fa37",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "rak3112",
+  "activelySupported": false
+}

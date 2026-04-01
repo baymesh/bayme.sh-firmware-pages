@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "thinknode_m1-inkhud",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.21.b14af14.elf",
+      "md5": "016c812934065b96526884c19af50887",
+      "bytes": 1283816
+    },
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.21.b14af14.hex",
+      "md5": "6e6065f3c5ffd1cfd97704f647f582e1",
+      "bytes": 1884609
+    },
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.21.b14af14.uf2",
+      "md5": "3fbcd2df9134105295fe918c4b18405e",
+      "bytes": 1340416
+    },
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.21.b14af14-ota.zip",
+      "md5": "bdb43ac285730c773c95368683a788c7",
+      "bytes": 671012
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "thinknode_m1-inkhud",
+  "activelySupported": false
+}

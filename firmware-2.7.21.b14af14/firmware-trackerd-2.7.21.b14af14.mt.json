@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "trackerd",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-trackerd-2.7.21.b14af14.elf",
+      "md5": "118ef0eda6cc5cde465ca5dff4048016",
+      "bytes": 20133008
+    },
+    {
+      "name": "firmware-trackerd-2.7.21.b14af14.bin",
+      "md5": "81899e8928647f5ff853550e17639613",
+      "bytes": 2048960,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-trackerd-2.7.21.b14af14.factory.bin",
+      "md5": "ecfd3d5e4ec640656e346b064b737687",
+      "bytes": 2114496
+    },
+    {
+      "name": "littlefs-trackerd-2.7.21.b14af14.bin",
+      "md5": "83c872bd202c5ea6e3e8609ece66f692",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "trackerd",
+  "activelySupported": false
+}

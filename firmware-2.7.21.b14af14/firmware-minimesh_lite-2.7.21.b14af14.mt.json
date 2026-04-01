@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "minimesh_lite",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-minimesh_lite-2.7.21.b14af14.elf",
+      "md5": "b0d68138d4c2c4049911cf19cd0af34b",
+      "bytes": 1406640
+    },
+    {
+      "name": "firmware-minimesh_lite-2.7.21.b14af14.hex",
+      "md5": "745650ebd1f4071548bf76918571a600",
+      "bytes": 2043791
+    },
+    {
+      "name": "firmware-minimesh_lite-2.7.21.b14af14.uf2",
+      "md5": "f916ee8c1d6a1cac811e7b82aae4cd7e",
+      "bytes": 1453568
+    },
+    {
+      "name": "firmware-minimesh_lite-2.7.21.b14af14-ota.zip",
+      "md5": "34122345bfe9fef815049b543f548b90",
+      "bytes": 727568
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "minimesh_lite",
+  "activelySupported": false
+}

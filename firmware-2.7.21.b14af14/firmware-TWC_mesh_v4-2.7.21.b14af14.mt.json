@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "TWC_mesh_v4",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-TWC_mesh_v4-2.7.21.b14af14.elf",
+      "md5": "0d6f9680d02457f553a0b9686562b87f",
+      "bytes": 1337044
+    },
+    {
+      "name": "firmware-TWC_mesh_v4-2.7.21.b14af14.hex",
+      "md5": "8d6ece0f5b905c25bc3985f50b3ba822",
+      "bytes": 2029976
+    },
+    {
+      "name": "firmware-TWC_mesh_v4-2.7.21.b14af14.uf2",
+      "md5": "64f4775877316e340ffdcaf8fd0c5fe5",
+      "bytes": 1443840
+    },
+    {
+      "name": "firmware-TWC_mesh_v4-2.7.21.b14af14-ota.zip",
+      "md5": "884b300bffe8273b19bf707fb962b231",
+      "bytes": 722645
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "TWC_mesh_v4",
+  "activelySupported": false
+}

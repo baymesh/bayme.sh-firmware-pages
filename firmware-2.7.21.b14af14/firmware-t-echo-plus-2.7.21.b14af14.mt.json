@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "t-echo-plus",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-t-echo-plus-2.7.21.b14af14.elf",
+      "md5": "f881195d6f806fa9f20ed4a1f95c8f84",
+      "bytes": 1410588
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.21.b14af14.hex",
+      "md5": "d02ee2293a11691d4bd25c6179e6fb53",
+      "bytes": 2056616
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.21.b14af14.uf2",
+      "md5": "cdfe33dd53025f8e157b9066103bc585",
+      "bytes": 1462784
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.21.b14af14-ota.zip",
+      "md5": "24e9ce04a1d4d184401bd48eeb012749",
+      "bytes": 732117
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "t-echo-plus",
+  "activelySupported": false
+}

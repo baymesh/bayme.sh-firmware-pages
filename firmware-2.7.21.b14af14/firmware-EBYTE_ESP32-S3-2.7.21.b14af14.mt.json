@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "EBYTE_ESP32-S3",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-EBYTE_ESP32-S3-2.7.21.b14af14.elf",
+      "md5": "7bba2f8bab7782458f2b299936d39a3a",
+      "bytes": 21451132
+    },
+    {
+      "name": "firmware-EBYTE_ESP32-S3-2.7.21.b14af14.bin",
+      "md5": "bdf157278134162dd02b9a82c530eae3",
+      "bytes": 1905424,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-EBYTE_ESP32-S3-2.7.21.b14af14.factory.bin",
+      "md5": "a995abef89637cb2e66b3c1c23ef50bc",
+      "bytes": 1970960
+    },
+    {
+      "name": "littlefs-EBYTE_ESP32-S3-2.7.21.b14af14.bin",
+      "md5": "82d3b52277f4b946f31e772fbc27fc03",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "EBYTE_ESP32-S3",
+  "activelySupported": false
+}

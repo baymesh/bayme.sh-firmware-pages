@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.b14af14",
+  "build_epoch": 1775001600,
+  "platformioTarget": "makerpython_nrf52840_sx1280_eink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_eink-2.7.21.b14af14.elf",
+      "md5": "a966dd3a2e3a7b67bea93e2283b6eec4",
+      "bytes": 1335568
+    },
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_eink-2.7.21.b14af14.hex",
+      "md5": "78238e9d5c31d293b18a821bbf8cac14",
+      "bytes": 2016071
+    },
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_eink-2.7.21.b14af14.uf2",
+      "md5": "50a31375431a1ed757ce8d39ad6548ec",
+      "bytes": 1433600
+    },
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_eink-2.7.21.b14af14-ota.zip",
+      "md5": "65e2580d32202e4f487216d4999cf0c5",
+      "bytes": 717825
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "makerpython_nrf52840_sx1280_eink",
+  "activelySupported": false
+}
