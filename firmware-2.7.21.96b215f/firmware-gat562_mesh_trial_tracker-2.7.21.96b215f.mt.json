@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "gat562_mesh_trial_tracker",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-gat562_mesh_trial_tracker-2.7.21.96b215f.elf",
+      "md5": "d22426f59f20a7bbc7274f6303692660",
+      "bytes": 1334040
+    },
+    {
+      "name": "firmware-gat562_mesh_trial_tracker-2.7.21.96b215f.hex",
+      "md5": "00f6a1ef65b35fa36b890e52ff08eea4",
+      "bytes": 2018591
+    },
+    {
+      "name": "firmware-gat562_mesh_trial_tracker-2.7.21.96b215f.uf2",
+      "md5": "de3036efd7b237a0b741600908fcae56",
+      "bytes": 1435648
+    },
+    {
+      "name": "firmware-gat562_mesh_trial_tracker-2.7.21.96b215f-ota.zip",
+      "md5": "7e300e68dfd360f8604e52f889b1db68",
+      "bytes": 718681
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "gat562_mesh_trial_tracker",
+  "activelySupported": false
+}

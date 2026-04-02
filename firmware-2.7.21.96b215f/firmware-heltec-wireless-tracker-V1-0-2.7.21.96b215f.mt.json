@@ -1,0 +1,94 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "heltec-wireless-tracker-V1-0",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-wireless-tracker-V1-0-2.7.21.96b215f.elf",
+      "md5": "2a197a8645fc4e897ca4f36ef66b8f59",
+      "bytes": 23056616
+    },
+    {
+      "name": "firmware-heltec-wireless-tracker-V1-0-2.7.21.96b215f.bin",
+      "md5": "baf5f65a2a5b302d4a8994db5388eb38",
+      "bytes": 2179712,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wireless-tracker-V1-0-2.7.21.96b215f.factory.bin",
+      "md5": "6985770b2525d2a1d54daaaa9cc73d75",
+      "bytes": 2245248
+    },
+    {
+      "name": "littlefs-heltec-wireless-tracker-V1-0-2.7.21.96b215f.bin",
+      "md5": "2a4f4c6afd5350e2a067a7b6aa50442f",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 58,
+  "hwModelSlug": "HELTEC_WIRELESS_TRACKER_V1_0",
+  "architecture": "esp32-s3",
+  "activelySupported": false,
+  "displayName": "Heltec Wireless Tracker V1.0",
+  "supportLevel": 3,
+  "images": [
+    "heltec-wireless-tracker.svg"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

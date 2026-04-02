@@ -1,0 +1,45 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "heltec-mesh-node-t096",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-node-t096-2.7.21.96b215f.elf",
+      "md5": "04e002bc48064d25071494b1acf64e9f",
+      "bytes": 1407212
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t096-2.7.21.96b215f.hex",
+      "md5": "f9f6a03ea9ad704dd4df5b5fa9732d2d",
+      "bytes": 2043439
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t096-2.7.21.96b215f.uf2",
+      "md5": "5dd3a12eb10458b3d51730608fefd7f1",
+      "bytes": 1453056
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t096-2.7.21.96b215f-ota.zip",
+      "md5": "2f5f0c4ecd43fb4f477c18e583730d97",
+      "bytes": 727493
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 127,
+  "hwModelSlug": "HELTEC_MESH_NODE_T096",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Heltec Mesh Node 096",
+  "supportLevel": 1,
+  "images": [
+    "heltec-mesh-node-t096.svg",
+    "heltec-mesh-node-t096-case.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true
+}

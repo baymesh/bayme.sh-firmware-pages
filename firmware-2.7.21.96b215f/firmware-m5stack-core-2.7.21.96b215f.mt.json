@@ -1,0 +1,84 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "m5stack-core",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-m5stack-core-2.7.21.96b215f.elf",
+      "md5": "62306c2e8ecef952ae9c1f46c8db55ca",
+      "bytes": 20075480
+    },
+    {
+      "name": "firmware-m5stack-core-2.7.21.96b215f.bin",
+      "md5": "7ea6d379e2b4c6372bf0df5e826b492f",
+      "bytes": 2194608,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-m5stack-core-2.7.21.96b215f.factory.bin",
+      "md5": "99ba693b0abe4139ab7d35ee0add112a",
+      "bytes": 2260144
+    },
+    {
+      "name": "littlefs-m5stack-core-2.7.21.96b215f.bin",
+      "md5": "c70ce01f4ad245ad230a1df1e6550081",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 42,
+  "hwModelSlug": "M5STACK",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "M5 Stack",
+  "supportLevel": 3,
+  "tags": [
+    "M5Stack"
+  ]
+}

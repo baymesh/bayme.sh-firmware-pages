@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "tlora-c6",
+  "mcu": "esp32c6",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tlora-c6-2.7.21.96b215f.elf",
+      "md5": "ed698d6f630bdbd83dda18a5ff2d3c20",
+      "bytes": 45603048
+    },
+    {
+      "name": "firmware-tlora-c6-2.7.21.96b215f.bin",
+      "md5": "68bce21cf8fe3e1f0800b64250c511ab",
+      "bytes": 2466208,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-c6-2.7.21.96b215f.factory.bin",
+      "md5": "0a9e61d5802c4f3637962e345b4b809b",
+      "bytes": 2531744
+    },
+    {
+      "name": "littlefs-tlora-c6-2.7.21.96b215f.bin",
+      "md5": "2965edd47865bd4ca8bc9bb09dd4d43a",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-c6",
+  "displayName": "tlora-c6",
+  "activelySupported": false
+}

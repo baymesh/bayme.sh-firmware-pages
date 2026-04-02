@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "feather_rp2040_rfm95",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-feather_rp2040_rfm95-2.7.21.96b215f.elf",
+      "md5": "6ecee7eb196b0d7a89d8596672b27910",
+      "bytes": 10020868
+    },
+    {
+      "name": "firmware-feather_rp2040_rfm95-2.7.21.96b215f.bin",
+      "md5": "9d6d1b450a93d97b990666d4be9b9944",
+      "bytes": 971452,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-feather_rp2040_rfm95-2.7.21.96b215f.uf2",
+      "md5": "eb7557a0a4ac774b39b334afc428e735",
+      "bytes": 1943040
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2040",
+  "displayName": "feather_rp2040_rfm95",
+  "activelySupported": false
+}

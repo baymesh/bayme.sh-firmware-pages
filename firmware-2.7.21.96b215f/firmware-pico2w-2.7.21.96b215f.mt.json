@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "pico2w",
+  "mcu": "rp2350",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-pico2w-2.7.21.96b215f.elf",
+      "md5": "e3f6b01d82a146a94a7398848fb286e2",
+      "bytes": 11562264
+    },
+    {
+      "name": "firmware-pico2w-2.7.21.96b215f.bin",
+      "md5": "3e6580e4924b0ea3259367786ae884c0",
+      "bytes": 1419048,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-pico2w-2.7.21.96b215f.uf2",
+      "md5": "b498f635275d26f2bcd99ad59703e4b1",
+      "bytes": 2838528
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2350",
+  "displayName": "pico2w",
+  "activelySupported": false
+}

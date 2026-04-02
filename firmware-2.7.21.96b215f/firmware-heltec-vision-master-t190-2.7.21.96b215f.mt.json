@@ -1,0 +1,97 @@
+{
+  "version": "2.7.21.96b215f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "heltec-vision-master-t190",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-t190-2.7.21.96b215f.elf",
+      "md5": "25cd59f1b7c94c08ffdd43beb3a97b5d",
+      "bytes": 22805424
+    },
+    {
+      "name": "firmware-heltec-vision-master-t190-2.7.21.96b215f.bin",
+      "md5": "b8ae03ae980ff487ee9de65207c08e47",
+      "bytes": 2136288,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-t190-2.7.21.96b215f.factory.bin",
+      "md5": "17baebe6874e776eb4ab74fb6c9868dc",
+      "bytes": 2201824
+    },
+    {
+      "name": "littlefs-heltec-vision-master-t190-2.7.21.96b215f.bin",
+      "md5": "a3e15569704711eb0822ebc1b816dd78",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 66,
+  "hwModelSlug": "HELTEC_VISION_MASTER_T190",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Vision Master T190",
+  "supportLevel": 1,
+  "images": [
+    "heltec-vision-master-t190.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}
