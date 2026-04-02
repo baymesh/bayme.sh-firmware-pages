@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.307001f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "crowpanel-esp32s3-4-epaper",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-crowpanel-esp32s3-4-epaper-2.7.21.307001f.elf",
+      "md5": "6d79b338aeaa54362b29b42079f3e592",
+      "bytes": 22338760
+    },
+    {
+      "name": "firmware-crowpanel-esp32s3-4-epaper-2.7.21.307001f.bin",
+      "md5": "7277b07d2c76fc7a5d992802d868e846",
+      "bytes": 2134480,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-crowpanel-esp32s3-4-epaper-2.7.21.307001f.factory.bin",
+      "md5": "27fce737b5e65a23b6fd7da89bd2f795",
+      "bytes": 2200016
+    },
+    {
+      "name": "littlefs-crowpanel-esp32s3-4-epaper-2.7.21.307001f.bin",
+      "md5": "97ba0642d4b8003742c11b657bae2945",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "crowpanel-esp32s3-4-epaper",
+  "activelySupported": false
+}

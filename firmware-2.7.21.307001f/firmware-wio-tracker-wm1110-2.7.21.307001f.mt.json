@@ -1,0 +1,44 @@
+{
+  "version": "2.7.21.307001f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "wio-tracker-wm1110",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.21.307001f.elf",
+      "md5": "d79aa0d2640f6d0db7bcbfcf121118dc",
+      "bytes": 1331744
+    },
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.21.307001f.hex",
+      "md5": "a81ce233430650c09e29385e35ec617a",
+      "bytes": 1999961
+    },
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.21.307001f.uf2",
+      "md5": "59475e652f0c98e448185b9361400711",
+      "bytes": 1422336
+    },
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.21.307001f-ota.zip",
+      "md5": "a39c4afd3ffd340a8a39b8b840bd6219",
+      "bytes": 712015
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 21,
+  "hwModelSlug": "WIO_WM1110",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Seeed Wio WM1110 Tracker",
+  "supportLevel": 3,
+  "images": [
+    "wio-tracker-wm1110.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true
+}

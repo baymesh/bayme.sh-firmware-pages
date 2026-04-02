@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.307001f",
+  "build_epoch": 1775088000,
+  "platformioTarget": "t-eth-elite",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-t-eth-elite-2.7.21.307001f.elf",
+      "md5": "d47123ed2c0521179b8dc0234de72897",
+      "bytes": 23171316
+    },
+    {
+      "name": "firmware-t-eth-elite-2.7.21.307001f.bin",
+      "md5": "f213aa3799fcd2ccd9ed969d7135d6ac",
+      "bytes": 2303648,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-eth-elite-2.7.21.307001f.factory.bin",
+      "md5": "46bd2f723020a2dd28e29b9a298562be",
+      "bytes": 2369184
+    },
+    {
+      "name": "littlefs-t-eth-elite-2.7.21.307001f.bin",
+      "md5": "b4d46d55dc7038a64b448c160b99514c",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "t-eth-elite",
+  "activelySupported": false
+}
