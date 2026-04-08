@@ -1,0 +1,90 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "tracksenger-oled",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tracksenger-oled-2.7.21.94e8cee.elf",
+      "md5": "18191554d742b44f6dd02293026b34ae",
+      "bytes": 22732676
+    },
+    {
+      "name": "firmware-tracksenger-oled-2.7.21.94e8cee.bin",
+      "md5": "ca69e91d261b54a62950073ff05902d6",
+      "bytes": 2130416,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tracksenger-oled-2.7.21.94e8cee.factory.bin",
+      "md5": "c6ec258e8a2150da58dac414f7d8470d",
+      "bytes": 2195952
+    },
+    {
+      "name": "littlefs-tracksenger-oled-2.7.21.94e8cee.bin",
+      "md5": "ad27eb712933b1528be766a1b1da1272",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 48,
+  "hwModelSlug": "HELTEC_WIRELESS_TRACKER",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "TrackSenger (big OLED)",
+  "supportLevel": 3,
+  "partitionScheme": "8MB"
+}

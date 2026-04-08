@@ -1,0 +1,30 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "senselora_rp2040",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-senselora_rp2040-2.7.21.94e8cee.elf",
+      "md5": "b1224034a56f02941d0c6e184849371d",
+      "bytes": 10024040
+    },
+    {
+      "name": "firmware-senselora_rp2040-2.7.21.94e8cee.bin",
+      "md5": "7e17cfe739286a16fc7bd031723a94ce",
+      "bytes": 972948,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-senselora_rp2040-2.7.21.94e8cee.uf2",
+      "md5": "752e0691b088c26ee1201f5f8495a07d",
+      "bytes": 1946112
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2040",
+  "displayName": "senselora_rp2040",
+  "activelySupported": false
+}

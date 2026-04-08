@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "mini-epaper-s3-inkhud",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-mini-epaper-s3-inkhud-2.7.21.94e8cee.elf",
+      "md5": "f31cb4d35caa651a953cb6631a045c56",
+      "bytes": 22394748
+    },
+    {
+      "name": "firmware-mini-epaper-s3-inkhud-2.7.21.94e8cee.bin",
+      "md5": "0a640e362cf33bc0f875e98ee65c9477",
+      "bytes": 2071504,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-mini-epaper-s3-inkhud-2.7.21.94e8cee.factory.bin",
+      "md5": "d585073b85780938bda1c11e46a75c36",
+      "bytes": 2137040
+    },
+    {
+      "name": "littlefs-mini-epaper-s3-inkhud-2.7.21.94e8cee.bin",
+      "md5": "4854778cb032f38b89ddd9f112ff9a67",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "mini-epaper-s3-inkhud",
+  "activelySupported": false
+}

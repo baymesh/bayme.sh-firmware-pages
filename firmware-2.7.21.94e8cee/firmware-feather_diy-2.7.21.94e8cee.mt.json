@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "feather_diy",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-feather_diy-2.7.21.94e8cee.elf",
+      "md5": "b4fa61affc485c86a1ed8688863eae81",
+      "bytes": 1332784
+    },
+    {
+      "name": "firmware-feather_diy-2.7.21.94e8cee.hex",
+      "md5": "b190ce3742ac5d9b26d09792bafd67e5",
+      "bytes": 2014586
+    },
+    {
+      "name": "firmware-feather_diy-2.7.21.94e8cee.uf2",
+      "md5": "384eb44f3be228c07e988a4be32f7b7b",
+      "bytes": 1432576
+    },
+    {
+      "name": "firmware-feather_diy-2.7.21.94e8cee-ota.zip",
+      "md5": "a9b3f234a143d6b8a24c562c68092a4e",
+      "bytes": 717173
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "feather_diy",
+  "activelySupported": false
+}

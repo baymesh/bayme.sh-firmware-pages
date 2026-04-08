@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "heltec-wireless-paper-inkhud",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-wireless-paper-inkhud-2.7.21.94e8cee.elf",
+      "md5": "384122ef673ba0253778aadbfe6216ad",
+      "bytes": 22082960
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-inkhud-2.7.21.94e8cee.bin",
+      "md5": "55e000ca5e0ddc17c617ab2cc5963988",
+      "bytes": 2039584,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-inkhud-2.7.21.94e8cee.factory.bin",
+      "md5": "5911c70f9c2b988d43340ba832e2e1f0",
+      "bytes": 2105120
+    },
+    {
+      "name": "littlefs-heltec-wireless-paper-inkhud-2.7.21.94e8cee.bin",
+      "md5": "5f4da2d359e981e65d214aad615c7ea7",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec-wireless-paper-inkhud",
+  "activelySupported": false
+}

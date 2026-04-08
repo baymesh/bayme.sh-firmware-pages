@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "seeed_wio_tracker_L1_eink-inkhud",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.21.94e8cee.elf",
+      "md5": "b8b1c73a6bd3474043c5b1fe91a25046",
+      "bytes": 1289556
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.21.94e8cee.hex",
+      "md5": "a61a6f65bf0482a8bd18a686e9c5506a",
+      "bytes": 1898784
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.21.94e8cee.uf2",
+      "md5": "8ba6c261ae35d8a1cac64c4559572f81",
+      "bytes": 1350144
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.21.94e8cee-ota.zip",
+      "md5": "ab00d355007b5355c288743ff99f40f5",
+      "bytes": 676131
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "seeed_wio_tracker_L1_eink-inkhud",
+  "activelySupported": false
+}

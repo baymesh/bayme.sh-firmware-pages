@@ -1,0 +1,88 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "thinknode_m5",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-thinknode_m5-2.7.21.94e8cee.elf",
+      "md5": "5203e9b3e457193edc3b43a62d92fabe",
+      "bytes": 22274300
+    },
+    {
+      "name": "firmware-thinknode_m5-2.7.21.94e8cee.bin",
+      "md5": "4316e32ddf5985816186cfa2f46653a6",
+      "bytes": 2113472,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-thinknode_m5-2.7.21.94e8cee.factory.bin",
+      "md5": "8cbef52bd94f76a1d7e9ca02039df007",
+      "bytes": 2179008
+    },
+    {
+      "name": "littlefs-thinknode_m5-2.7.21.94e8cee.bin",
+      "md5": "db6e526accff47a23db562cf23f009f3",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 107,
+  "hwModelSlug": "THINKNODE_M5",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "ThinkNode M5",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m1.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": false
+}

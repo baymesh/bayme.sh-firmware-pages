@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "my-esp32s3-diy-oled",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-my-esp32s3-diy-oled-2.7.21.94e8cee.elf",
+      "md5": "0e5287bb9f43888b49ae1f20b07ded7f",
+      "bytes": 22955360
+    },
+    {
+      "name": "firmware-my-esp32s3-diy-oled-2.7.21.94e8cee.bin",
+      "md5": "fffa5d2f4911dd3ce789e505664b2916",
+      "bytes": 2216736,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-my-esp32s3-diy-oled-2.7.21.94e8cee.factory.bin",
+      "md5": "d8e4f4c2efbbceaba105bc16e152e8fd",
+      "bytes": 2282272
+    },
+    {
+      "name": "littlefs-my-esp32s3-diy-oled-2.7.21.94e8cee.bin",
+      "md5": "1e20420f8d8efea612d99d1b2fd10e18",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "my-esp32s3-diy-oled",
+  "activelySupported": false
+}

@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.94e8cee",
+  "build_epoch": 1775606400,
+  "platformioTarget": "monteops_hw1",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-monteops_hw1-2.7.21.94e8cee.elf",
+      "md5": "a2b2b2f14d80ec75805ce3c2af21084c",
+      "bytes": 1445844
+    },
+    {
+      "name": "firmware-monteops_hw1-2.7.21.94e8cee.hex",
+      "md5": "723f3c6e4d0c2f5110a92742dd4d2bc4",
+      "bytes": 2092833
+    },
+    {
+      "name": "firmware-monteops_hw1-2.7.21.94e8cee.uf2",
+      "md5": "2d6a6c46d2fdb210e8626ebccc189232",
+      "bytes": 1488384
+    },
+    {
+      "name": "firmware-monteops_hw1-2.7.21.94e8cee-ota.zip",
+      "md5": "fab5be74d17ce37d0b1b9459907d4441",
+      "bytes": 744999
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "monteops_hw1",
+  "activelySupported": false
+}
