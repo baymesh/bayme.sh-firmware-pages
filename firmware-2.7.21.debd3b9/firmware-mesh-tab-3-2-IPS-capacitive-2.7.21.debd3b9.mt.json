@@ -1,0 +1,86 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "mesh-tab-3-2-IPS-capacitive",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-mesh-tab-3-2-IPS-capacitive-2.7.21.debd3b9.elf",
+      "md5": "153853d5a7f40510e35f52ca05a5190c",
+      "bytes": 23881704
+    },
+    {
+      "name": "firmware-mesh-tab-3-2-IPS-capacitive-2.7.21.debd3b9.bin",
+      "md5": "f18c210fe4cc23d827f60f4e381109eb",
+      "bytes": 3123248,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-mesh-tab-3-2-IPS-capacitive-2.7.21.debd3b9.factory.bin",
+      "md5": "ce5eedfa806afe0ec117f342d8e1f90c",
+      "bytes": 3188784
+    },
+    {
+      "name": "littlefs-mesh-tab-3-2-IPS-capacitive-2.7.21.debd3b9.bin",
+      "md5": "8ea53ed0d3bc4665fbd53ccb82d4eb55",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "mesh-tab-3-2-IPS-capacitive",
+  "activelySupported": false
+}

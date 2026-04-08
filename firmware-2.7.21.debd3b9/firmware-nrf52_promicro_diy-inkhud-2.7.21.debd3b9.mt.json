@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "nrf52_promicro_diy-inkhud",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-nrf52_promicro_diy-inkhud-2.7.21.debd3b9.elf",
+      "md5": "3b2ba39bd3ca7aaa9852bdd5e3abf04b",
+      "bytes": 1315564
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy-inkhud-2.7.21.debd3b9.hex",
+      "md5": "f1dcd2cdecce46aae1d5b701d33ad4f8",
+      "bytes": 2004821
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy-inkhud-2.7.21.debd3b9.uf2",
+      "md5": "cffcdc9556ad3ca49dd70efa6cf3cb41",
+      "bytes": 1425920
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy-inkhud-2.7.21.debd3b9-ota.zip",
+      "md5": "c723cdfc8db6c4dd7e801313739dc255",
+      "bytes": 713785
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "nrf52_promicro_diy-inkhud",
+  "activelySupported": false
+}

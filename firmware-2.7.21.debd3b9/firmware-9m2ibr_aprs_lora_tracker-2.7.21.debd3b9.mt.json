@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "9m2ibr_aprs_lora_tracker",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-9m2ibr_aprs_lora_tracker-2.7.21.debd3b9.elf",
+      "md5": "3b89e822012cdbb1dbb3eeeb9b5f6e62",
+      "bytes": 20372292
+    },
+    {
+      "name": "firmware-9m2ibr_aprs_lora_tracker-2.7.21.debd3b9.bin",
+      "md5": "98fd5861a03d9cf4387dffbd6e316d89",
+      "bytes": 2141888,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-9m2ibr_aprs_lora_tracker-2.7.21.debd3b9.factory.bin",
+      "md5": "cc6455db5994808125906b70eb666b08",
+      "bytes": 2207424
+    },
+    {
+      "name": "littlefs-9m2ibr_aprs_lora_tracker-2.7.21.debd3b9.bin",
+      "md5": "85c0b2c855fe5e85a237a25d8be75d3a",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "9m2ibr_aprs_lora_tracker",
+  "activelySupported": false
+}

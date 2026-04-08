@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "heltec-wireless-bridge",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-wireless-bridge-2.7.21.debd3b9.elf",
+      "md5": "6ca1b2137015a8a0ce06701a618b58ce",
+      "bytes": 19586228
+    },
+    {
+      "name": "firmware-heltec-wireless-bridge-2.7.21.debd3b9.bin",
+      "md5": "7c6fa1473895db7f65cb46500391bc37",
+      "bytes": 1822544,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wireless-bridge-2.7.21.debd3b9.factory.bin",
+      "md5": "8fca0904d04c140f4243661feda690f1",
+      "bytes": 1888080
+    },
+    {
+      "name": "littlefs-heltec-wireless-bridge-2.7.21.debd3b9.bin",
+      "md5": "cd11c82f473f7a07bb0fc4a90e7a4c63",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "heltec-wireless-bridge",
+  "activelySupported": false
+}

@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "heltec-mesh-solar-eink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-solar-eink-2.7.21.debd3b9.elf",
+      "md5": "31de7c3cce2cd0f79b401e5f60f77d59",
+      "bytes": 1406960
+    },
+    {
+      "name": "firmware-heltec-mesh-solar-eink-2.7.21.debd3b9.hex",
+      "md5": "c175276db543a2aa65a118749da60732",
+      "bytes": 2037438
+    },
+    {
+      "name": "firmware-heltec-mesh-solar-eink-2.7.21.debd3b9.uf2",
+      "md5": "028578b39da3cce292e6902e8b8176f8",
+      "bytes": 1448960
+    },
+    {
+      "name": "firmware-heltec-mesh-solar-eink-2.7.21.debd3b9-ota.zip",
+      "md5": "cb366cc5525533e986f50a9b59640ddc",
+      "bytes": 725362
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "heltec-mesh-solar-eink",
+  "activelySupported": false
+}

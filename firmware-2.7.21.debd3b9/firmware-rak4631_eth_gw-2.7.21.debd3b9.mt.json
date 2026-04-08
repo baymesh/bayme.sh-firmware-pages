@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "rak4631_eth_gw",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.21.debd3b9.elf",
+      "md5": "c011234e87a7202f90bbb59bba92bd74",
+      "bytes": 1260520
+    },
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.21.debd3b9.hex",
+      "md5": "bcae77e5422b25fc213f8fddc15fbc01",
+      "bytes": 1763145
+    },
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.21.debd3b9.uf2",
+      "md5": "8e93c87c3b32701d0a7a8dc7ea18d840",
+      "bytes": 1253888
+    },
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.21.debd3b9-ota.zip",
+      "md5": "08e3b8d9809f9a783f2d9d7fec8b521c",
+      "bytes": 627803
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "rak4631_eth_gw",
+  "activelySupported": false
+}

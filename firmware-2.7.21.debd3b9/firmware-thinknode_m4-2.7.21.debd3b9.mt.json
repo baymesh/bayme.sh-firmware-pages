@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "thinknode_m4",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-thinknode_m4-2.7.21.debd3b9.elf",
+      "md5": "12b1471d92b3e91b0a492b8c145f073f",
+      "bytes": 1332896
+    },
+    {
+      "name": "firmware-thinknode_m4-2.7.21.debd3b9.hex",
+      "md5": "254907425d6110d09947fa5b726e977e",
+      "bytes": 2002031
+    },
+    {
+      "name": "firmware-thinknode_m4-2.7.21.debd3b9.uf2",
+      "md5": "a83e3e66fa6a5bc720738fee19b9127f",
+      "bytes": 1423872
+    },
+    {
+      "name": "firmware-thinknode_m4-2.7.21.debd3b9-ota.zip",
+      "md5": "1ff698dfec0bce8ece8b90de96510b03",
+      "bytes": 712715
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "thinknode_m4",
+  "activelySupported": false
+}

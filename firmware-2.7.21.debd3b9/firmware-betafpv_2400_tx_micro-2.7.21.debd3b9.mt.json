@@ -1,0 +1,78 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "betafpv_2400_tx_micro",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-betafpv_2400_tx_micro-2.7.21.debd3b9.elf",
+      "md5": "025b315fd6ea24afaaf6fda3680d423b",
+      "bytes": 20252944
+    },
+    {
+      "name": "firmware-betafpv_2400_tx_micro-2.7.21.debd3b9.bin",
+      "md5": "360c7e70870d181a614bc8a040a99dbd",
+      "bytes": 2059568,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-betafpv_2400_tx_micro-2.7.21.debd3b9.factory.bin",
+      "md5": "e016c25c3eb2d12bebbc0d8b88c7061c",
+      "bytes": 2125104
+    },
+    {
+      "name": "littlefs-betafpv_2400_tx_micro-2.7.21.debd3b9.bin",
+      "md5": "cd34ecde736cb493ca1e9bebe9f299e6",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "betafpv_2400_tx_micro",
+  "activelySupported": false
+}

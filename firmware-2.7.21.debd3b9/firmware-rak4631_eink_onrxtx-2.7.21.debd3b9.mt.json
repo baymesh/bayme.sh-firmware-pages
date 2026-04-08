@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.debd3b9",
+  "build_epoch": 1775606400,
+  "platformioTarget": "rak4631_eink_onrxtx",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-rak4631_eink_onrxtx-2.7.21.debd3b9.elf",
+      "md5": "60dd7eeea5bbb8d7922fa861b335fb81",
+      "bytes": 1411444
+    },
+    {
+      "name": "firmware-rak4631_eink_onrxtx-2.7.21.debd3b9.hex",
+      "md5": "a217753745a58d08164276b5a3f79bb2",
+      "bytes": 2064716
+    },
+    {
+      "name": "firmware-rak4631_eink_onrxtx-2.7.21.debd3b9.uf2",
+      "md5": "92e7af770ef8c81c19735a1757380aa9",
+      "bytes": 1468416
+    },
+    {
+      "name": "firmware-rak4631_eink_onrxtx-2.7.21.debd3b9-ota.zip",
+      "md5": "c35b9ea7a7334773d5419210c5f3222d",
+      "bytes": 735045
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "rak4631_eink_onrxtx",
+  "activelySupported": false
+}
