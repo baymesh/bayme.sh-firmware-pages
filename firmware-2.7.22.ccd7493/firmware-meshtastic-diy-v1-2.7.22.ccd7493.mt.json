@@ -1,0 +1,87 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "meshtastic-diy-v1",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.22.ccd7493.elf",
+      "md5": "5da87db282a69a123000a50e5e56c84c",
+      "bytes": 19727084
+    },
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.22.ccd7493.bin",
+      "md5": "a0bead59e69c35adfc2e12f3a1b3f205",
+      "bytes": 2057824,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.22.ccd7493.factory.bin",
+      "md5": "43a19c9c9fb0b90a0561deb755f051fb",
+      "bytes": 2123360
+    },
+    {
+      "name": "littlefs-meshtastic-diy-v1-2.7.22.ccd7493.bin",
+      "md5": "20e4fd8656444e04b0a963d52fa4c8e3",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 39,
+  "hwModelSlug": "DIY_V1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "DIY V1",
+  "supportLevel": 3,
+  "images": [
+    "diy.svg"
+  ],
+  "tags": [
+    "DIY"
+  ]
+}

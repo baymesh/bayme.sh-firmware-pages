@@ -1,0 +1,87 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "mini-epaper-s3",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-mini-epaper-s3-2.7.22.ccd7493.elf",
+      "md5": "52eb1831f899eb71b4fd2bc13b4a68bc",
+      "bytes": 22608248
+    },
+    {
+      "name": "firmware-mini-epaper-s3-2.7.22.ccd7493.bin",
+      "md5": "24ffbd03b4d4d79f3b1459c560194223",
+      "bytes": 2167984,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-mini-epaper-s3-2.7.22.ccd7493.factory.bin",
+      "md5": "5fb75566cf633a2c2c3760c7a978d731",
+      "bytes": 2233520
+    },
+    {
+      "name": "littlefs-mini-epaper-s3-2.7.22.ccd7493.bin",
+      "md5": "22baa7242e947d801b5ccf9a1685d0e3",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModelSlug": "MINI_EPAPER_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO Mini ePaper S3 E-Ink",
+  "supportLevel": 1,
+  "images": [
+    "mini-epaper-s3.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": false
+}

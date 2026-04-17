@@ -1,0 +1,35 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "WashTastic",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-WashTastic-2.7.22.ccd7493.elf",
+      "md5": "dfedfa5a60729574a701614755b026ba",
+      "bytes": 1427868
+    },
+    {
+      "name": "firmware-WashTastic-2.7.22.ccd7493.hex",
+      "md5": "8370edd7bcf71eed051a713a8d76b818",
+      "bytes": 2134593
+    },
+    {
+      "name": "firmware-WashTastic-2.7.22.ccd7493.uf2",
+      "md5": "76441ba7bbf3903e80f717156635b0cf",
+      "bytes": 1518080
+    },
+    {
+      "name": "firmware-WashTastic-2.7.22.ccd7493-ota.zip",
+      "md5": "15c7820b8251980026cf25e033203235",
+      "bytes": 759832
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "WashTastic",
+  "activelySupported": false
+}

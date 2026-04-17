@@ -1,0 +1,44 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "thinknode_m1",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-thinknode_m1-2.7.22.ccd7493.elf",
+      "md5": "68ff2d593b457ce295ff380971bd94e2",
+      "bytes": 1404752
+    },
+    {
+      "name": "firmware-thinknode_m1-2.7.22.ccd7493.hex",
+      "md5": "dffc9f8b892782916a5311a8646f97dc",
+      "bytes": 2046303
+    },
+    {
+      "name": "firmware-thinknode_m1-2.7.22.ccd7493.uf2",
+      "md5": "7437a115f769a309c45f9480286e7280",
+      "bytes": 1455104
+    },
+    {
+      "name": "firmware-thinknode_m1-2.7.22.ccd7493-ota.zip",
+      "md5": "086af83d715f4ed6a6d5abf67752977a",
+      "bytes": 728455
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 89,
+  "hwModelSlug": "THINKNODE_M1",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "ThinkNode M1",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m1.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": true
+}

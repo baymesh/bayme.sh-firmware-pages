@@ -1,0 +1,91 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "tracksenger-lcd",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tracksenger-lcd-2.7.22.ccd7493.elf",
+      "md5": "ad708cd5d711a02fac5737125caf876d",
+      "bytes": 23058448
+    },
+    {
+      "name": "firmware-tracksenger-lcd-2.7.22.ccd7493.bin",
+      "md5": "e559cb29bb068fa4c0a63419f06c150c",
+      "bytes": 2180304,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tracksenger-lcd-2.7.22.ccd7493.factory.bin",
+      "md5": "7b7448fd07dc9d598ed2291b7d481145",
+      "bytes": 2245840
+    },
+    {
+      "name": "littlefs-tracksenger-lcd-2.7.22.ccd7493.bin",
+      "md5": "7ed99b10df219f4541ad5f814847b09f",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 48,
+  "hwModelSlug": "HELTEC_WIRELESS_TRACKER",
+  "architecture": "esp32-s3",
+  "activelySupported": false,
+  "displayName": "TrackSenger (big TFT)",
+  "supportLevel": 3,
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

@@ -1,0 +1,78 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "nugget-s3-lora",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-nugget-s3-lora-2.7.22.ccd7493.elf",
+      "md5": "1263dec6d62c9907d236e21201da5b83",
+      "bytes": 22253328
+    },
+    {
+      "name": "firmware-nugget-s3-lora-2.7.22.ccd7493.bin",
+      "md5": "280905e4da9108a763d907d4178d6e6c",
+      "bytes": 2106944,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-nugget-s3-lora-2.7.22.ccd7493.factory.bin",
+      "md5": "765d3b0ed352675ae7c331bc699a6c2f",
+      "bytes": 2172480
+    },
+    {
+      "name": "littlefs-nugget-s3-lora-2.7.22.ccd7493.bin",
+      "md5": "b3d99789ca1822231e7f15fd8cf3d654",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "nugget-s3-lora",
+  "activelySupported": false
+}

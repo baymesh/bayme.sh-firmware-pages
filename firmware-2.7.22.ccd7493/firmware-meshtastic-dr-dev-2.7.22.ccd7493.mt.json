@@ -1,0 +1,83 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "meshtastic-dr-dev",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-meshtastic-dr-dev-2.7.22.ccd7493.elf",
+      "md5": "de571df15a44cfc803228f6c9d2cce9b",
+      "bytes": 19420852
+    },
+    {
+      "name": "firmware-meshtastic-dr-dev-2.7.22.ccd7493.bin",
+      "md5": "ad7f64d4e62ece3592e118d641ecb376",
+      "bytes": 1911216,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-meshtastic-dr-dev-2.7.22.ccd7493.factory.bin",
+      "md5": "c5f77748f5beb3f735a94b060d4fb826",
+      "bytes": 1976752
+    },
+    {
+      "name": "littlefs-meshtastic-dr-dev-2.7.22.ccd7493.bin",
+      "md5": "c15e2e8240042b8399550065174ee561",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 41,
+  "hwModelSlug": "DR_DEV",
+  "architecture": "esp32",
+  "activelySupported": false,
+  "displayName": "DR-DEV",
+  "tags": [
+    "DIY"
+  ]
+}

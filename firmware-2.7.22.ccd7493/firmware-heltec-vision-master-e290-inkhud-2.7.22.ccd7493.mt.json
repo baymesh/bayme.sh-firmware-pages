@@ -1,0 +1,86 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "heltec-vision-master-e290-inkhud",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e290-inkhud-2.7.22.ccd7493.elf",
+      "md5": "0e48f171cd3bb9b015fc22952c6ec6f4",
+      "bytes": 22631676
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-inkhud-2.7.22.ccd7493.bin",
+      "md5": "eabeb0394a84d6fe3a14c735df84305d",
+      "bytes": 2073920,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-inkhud-2.7.22.ccd7493.factory.bin",
+      "md5": "5c791d299978dcff8d20662273b2cf0a",
+      "bytes": 2139456
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e290-inkhud-2.7.22.ccd7493.bin",
+      "md5": "c366f94dd21da9aa4af99bc26ecdd834",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec-vision-master-e290-inkhud",
+  "activelySupported": false
+}

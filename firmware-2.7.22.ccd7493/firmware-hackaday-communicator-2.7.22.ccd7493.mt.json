@@ -1,0 +1,86 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "hackaday-communicator",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-hackaday-communicator-2.7.22.ccd7493.elf",
+      "md5": "7e81b15e9424adc7b192425d4daca6cd",
+      "bytes": 22594872
+    },
+    {
+      "name": "firmware-hackaday-communicator-2.7.22.ccd7493.bin",
+      "md5": "d13e6c4eb330116dea19f5309506e94b",
+      "bytes": 2150624,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-hackaday-communicator-2.7.22.ccd7493.factory.bin",
+      "md5": "7ef4978a6f7db20210d4c53301f7a1da",
+      "bytes": 2216160
+    },
+    {
+      "name": "littlefs-hackaday-communicator-2.7.22.ccd7493.bin",
+      "md5": "419b0e9c374b9b4de6d768f42feaf7ae",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "hackaday-communicator",
+  "activelySupported": false
+}

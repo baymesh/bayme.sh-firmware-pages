@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "wio-e5",
+  "mcu": "stm32wle5jc",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-wio-e5-2.7.22.ccd7493.elf",
+      "md5": "d0a484d115b30f04d0308b924a50f698",
+      "bytes": 8698460
+    },
+    {
+      "name": "firmware-wio-e5-2.7.22.ccd7493.bin",
+      "md5": "a6c527e887bd3e4bb53a558902352095",
+      "bytes": 230452,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-wio-e5-2.7.22.ccd7493.hex",
+      "md5": "d3bb892ab07b491ed7f1ab7cf699b4e2",
+      "bytes": 648260
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "stm32",
+  "displayName": "wio-e5",
+  "activelySupported": false
+}

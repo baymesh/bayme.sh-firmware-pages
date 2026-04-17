@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "pico2w",
+  "mcu": "rp2350",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-pico2w-2.7.22.ccd7493.elf",
+      "md5": "3d81621939e9fad1d4eaa5becebeb9f7",
+      "bytes": 11558640
+    },
+    {
+      "name": "firmware-pico2w-2.7.22.ccd7493.bin",
+      "md5": "ef4ab603dc2b0f8f2735e940f99e2067",
+      "bytes": 1418640,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-pico2w-2.7.22.ccd7493.uf2",
+      "md5": "c0415651f1ef7fe3f3bdd7e78b6b1965",
+      "bytes": 2837504
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2350",
+  "displayName": "pico2w",
+  "activelySupported": false
+}

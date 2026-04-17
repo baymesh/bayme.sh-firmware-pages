@@ -1,0 +1,86 @@
+{
+  "version": "2.7.22.ccd7493",
+  "build_epoch": 1776384000,
+  "platformioTarget": "ESP32-S3-Pico",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-ESP32-S3-Pico-2.7.22.ccd7493.elf",
+      "md5": "c8e3914f65c2989c95f003a898744337",
+      "bytes": 22920228
+    },
+    {
+      "name": "firmware-ESP32-S3-Pico-2.7.22.ccd7493.bin",
+      "md5": "8d2d316e4bcf5721245654c62d64f8ba",
+      "bytes": 2114304,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-ESP32-S3-Pico-2.7.22.ccd7493.factory.bin",
+      "md5": "8c0af8b832cc4491b157c4683263a616",
+      "bytes": 2179840
+    },
+    {
+      "name": "littlefs-ESP32-S3-Pico-2.7.22.ccd7493.bin",
+      "md5": "8ae7affe8e634bd1f2cac9b08f272d2a",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "ESP32-S3-Pico",
+  "activelySupported": false
+}
