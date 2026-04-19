@@ -1,0 +1,84 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "station-g1",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-station-g1-2.7.22.e8e05dc.elf",
+      "md5": "b5986244da99b1481cdaa14ca4746a68",
+      "bytes": 19927264
+    },
+    {
+      "name": "firmware-station-g1-2.7.22.e8e05dc.bin",
+      "md5": "1e8d7e8a3ce4507b28dc00c9d4f85440",
+      "bytes": 2150384,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-station-g1-2.7.22.e8e05dc.factory.bin",
+      "md5": "3a066ac1dc0be19a1283295744a8473b",
+      "bytes": 2215920
+    },
+    {
+      "name": "littlefs-station-g1-2.7.22.e8e05dc.bin",
+      "md5": "e6ebd4461cfaded0ff2cb8fbed16f4ad",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 25,
+  "hwModelSlug": "STATION_G1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Station G1",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}

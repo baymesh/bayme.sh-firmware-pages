@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "milesight_gs301",
+  "mcu": "stm32wle5ccu",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-milesight_gs301-2.7.22.e8e05dc.elf",
+      "md5": "202a303ce9733046f81af9fd0e73c879",
+      "bytes": 7619668
+    },
+    {
+      "name": "firmware-milesight_gs301-2.7.22.e8e05dc.bin",
+      "md5": "14668f49604eb85202819d973b7b53e9",
+      "bytes": 230348,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-milesight_gs301-2.7.22.e8e05dc.hex",
+      "md5": "f9c7012d6bb5878fd4e56a9dc40b84e7",
+      "bytes": 647982
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "stm32",
+  "displayName": "milesight_gs301",
+  "activelySupported": false
+}

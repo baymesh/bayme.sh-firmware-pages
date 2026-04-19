@@ -1,0 +1,86 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "mesh-tab-3-5-IPS-resistive",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-mesh-tab-3-5-IPS-resistive-2.7.22.e8e05dc.elf",
+      "md5": "1ed1dcb4e164827fca8a6c4a511b6eb8",
+      "bytes": 23880888
+    },
+    {
+      "name": "firmware-mesh-tab-3-5-IPS-resistive-2.7.22.e8e05dc.bin",
+      "md5": "1e797c46ee45fdd2cfabfb9be7904797",
+      "bytes": 3121024,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-mesh-tab-3-5-IPS-resistive-2.7.22.e8e05dc.factory.bin",
+      "md5": "d7ec94f650326ffad13d7d8149d1ad4f",
+      "bytes": 3186560
+    },
+    {
+      "name": "littlefs-mesh-tab-3-5-IPS-resistive-2.7.22.e8e05dc.bin",
+      "md5": "2dda0d19c4959525606001823e1c403d",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "mesh-tab-3-5-IPS-resistive",
+  "activelySupported": false
+}

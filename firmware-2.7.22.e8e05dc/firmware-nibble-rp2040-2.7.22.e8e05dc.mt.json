@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "nibble-rp2040",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-nibble-rp2040-2.7.22.e8e05dc.elf",
+      "md5": "4736d49c9700f45312dd0bf341f15e71",
+      "bytes": 10021508
+    },
+    {
+      "name": "firmware-nibble-rp2040-2.7.22.e8e05dc.bin",
+      "md5": "1d239d8cf0fc07432a2a27697c9705ee",
+      "bytes": 973652,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-nibble-rp2040-2.7.22.e8e05dc.uf2",
+      "md5": "4e64c1018c55fec96ee6a1d4b3aae966",
+      "bytes": 1947648
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2040",
+  "displayName": "nibble-rp2040",
+  "activelySupported": false
+}

@@ -1,0 +1,41 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "pico",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-pico-2.7.22.e8e05dc.elf",
+      "md5": "067c3e61f0fe4b432ba9c33dfe78bd49",
+      "bytes": 10038244
+    },
+    {
+      "name": "firmware-pico-2.7.22.e8e05dc.bin",
+      "md5": "11055d59d6cc02fbfd0dc9f52017ef50",
+      "bytes": 980732,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-pico-2.7.22.e8e05dc.uf2",
+      "md5": "9a4f17382b8c9a72aa46358e15e146f3",
+      "bytes": 1961472
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 47,
+  "hwModelSlug": "RPI_PICO",
+  "architecture": "rp2040",
+  "activelySupported": true,
+  "displayName": "Raspberry Pi Pico",
+  "supportLevel": 3,
+  "images": [
+    "pico.svg"
+  ],
+  "tags": [
+    "RPi",
+    "DIY"
+  ],
+  "requiresDfu": true
+}

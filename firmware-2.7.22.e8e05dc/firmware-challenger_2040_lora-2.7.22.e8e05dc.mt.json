@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "challenger_2040_lora",
+  "mcu": "rp2040",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-challenger_2040_lora-2.7.22.e8e05dc.elf",
+      "md5": "02d658e31fdf3ccc94949fad04b8909e",
+      "bytes": 10021508
+    },
+    {
+      "name": "firmware-challenger_2040_lora-2.7.22.e8e05dc.bin",
+      "md5": "d4f432baadbf5449d67d0e05f920185c",
+      "bytes": 973692,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-challenger_2040_lora-2.7.22.e8e05dc.uf2",
+      "md5": "11e040f39327a0ae428390a5b202bc73",
+      "bytes": 1947648
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2040",
+  "displayName": "challenger_2040_lora",
+  "activelySupported": false
+}

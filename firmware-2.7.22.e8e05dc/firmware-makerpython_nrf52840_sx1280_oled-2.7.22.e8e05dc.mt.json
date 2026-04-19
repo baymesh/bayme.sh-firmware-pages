@@ -1,0 +1,35 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "makerpython_nrf52840_sx1280_oled",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_oled-2.7.22.e8e05dc.elf",
+      "md5": "45a95e636648ef5a570da5ac5c7bdf23",
+      "bytes": 1327036
+    },
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_oled-2.7.22.e8e05dc.hex",
+      "md5": "5771fb2d0a45efbfcde870ff59a4d7d8",
+      "bytes": 1993518
+    },
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_oled-2.7.22.e8e05dc.uf2",
+      "md5": "9119489587b047013accc3d78862e140",
+      "bytes": 1417728
+    },
+    {
+      "name": "firmware-makerpython_nrf52840_sx1280_oled-2.7.22.e8e05dc-ota.zip",
+      "md5": "f02bcecb081665fc1dc3a516fab95e3b",
+      "bytes": 709804
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "makerpython_nrf52840_sx1280_oled",
+  "activelySupported": false
+}

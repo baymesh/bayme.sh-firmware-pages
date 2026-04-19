@@ -1,0 +1,95 @@
+{
+  "version": "2.7.22.e8e05dc",
+  "build_epoch": 1776556800,
+  "platformioTarget": "t-beam-1w",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-t-beam-1w-2.7.22.e8e05dc.elf",
+      "md5": "f3c80441a64c2c0dc9e4162ac577aaad",
+      "bytes": 23047288
+    },
+    {
+      "name": "firmware-t-beam-1w-2.7.22.e8e05dc.bin",
+      "md5": "0f2744f33df1063406daab31dc362586",
+      "bytes": 2163664,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-beam-1w-2.7.22.e8e05dc.factory.bin",
+      "md5": "075d33431094f9778415b1fc33fe7f4a",
+      "bytes": 2229200
+    },
+    {
+      "name": "littlefs-t-beam-1w-2.7.22.e8e05dc.bin",
+      "md5": "8fce25923684dc6e2bc0fe91cfe8b31f",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 122,
+  "hwModelSlug": "TBEAM_1_WATT",
+  "architecture": "esp32s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam 1W",
+  "supportLevel": 1,
+  "images": [
+    "tbeam-1w.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}
