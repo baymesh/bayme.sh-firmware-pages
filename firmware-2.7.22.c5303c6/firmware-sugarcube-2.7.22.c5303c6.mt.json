@@ -1,0 +1,87 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "sugarcube",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-sugarcube-2.7.22.c5303c6.elf",
+      "md5": "767c82d5816a95d7701fc2d1ee3bc8fc",
+      "bytes": 19879248
+    },
+    {
+      "name": "firmware-sugarcube-2.7.22.c5303c6.bin",
+      "md5": "9ab229bac98940bdf378700a2904611c",
+      "bytes": 2126048,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-sugarcube-2.7.22.c5303c6.factory.bin",
+      "md5": "1cd430d3116ddbc5a1d476cc5de3480c",
+      "bytes": 2191584
+    },
+    {
+      "name": "littlefs-sugarcube-2.7.22.c5303c6.bin",
+      "md5": "9ad9a74f08e341dad5fe6b193f217c45",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 3,
+  "hwModelSlug": "TLORA_V2_1_1P6",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa V2.1-1.6",
+  "supportLevel": 3,
+  "images": [
+    "tlora-v2-1-1_6.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}

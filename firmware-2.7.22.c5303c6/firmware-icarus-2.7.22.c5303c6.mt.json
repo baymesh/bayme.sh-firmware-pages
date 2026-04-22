@@ -1,0 +1,86 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "icarus",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-icarus-2.7.22.c5303c6.elf",
+      "md5": "1dccdbfc4e634edd7c105b9043acda7f",
+      "bytes": 22559136
+    },
+    {
+      "name": "firmware-icarus-2.7.22.c5303c6.bin",
+      "md5": "f784eae749b85d2ea42875187f8bf764",
+      "bytes": 2126528,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-icarus-2.7.22.c5303c6.factory.bin",
+      "md5": "8770f7ac0f0083f1e2b297731c08b2a4",
+      "bytes": 2192064
+    },
+    {
+      "name": "littlefs-icarus-2.7.22.c5303c6.bin",
+      "md5": "145f94a0bba854d9bd45bef0e8133d40",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "icarus",
+  "activelySupported": false
+}

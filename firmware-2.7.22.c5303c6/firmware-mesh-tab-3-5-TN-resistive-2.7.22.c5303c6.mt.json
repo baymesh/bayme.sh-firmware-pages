@@ -1,0 +1,86 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "mesh-tab-3-5-TN-resistive",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-mesh-tab-3-5-TN-resistive-2.7.22.c5303c6.elf",
+      "md5": "4ef92f4574a2ea842cd05f33173f6f9b",
+      "bytes": 23880740
+    },
+    {
+      "name": "firmware-mesh-tab-3-5-TN-resistive-2.7.22.c5303c6.bin",
+      "md5": "87e45ed8e3f6bc7258699826a516b592",
+      "bytes": 3120944,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-mesh-tab-3-5-TN-resistive-2.7.22.c5303c6.factory.bin",
+      "md5": "6c9d40af00ad3b9d176bfc6d28570487",
+      "bytes": 3186480
+    },
+    {
+      "name": "littlefs-mesh-tab-3-5-TN-resistive-2.7.22.c5303c6.bin",
+      "md5": "31e3c93b3bc7adfb512ecc0baa450839",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "mesh-tab-3-5-TN-resistive",
+  "activelySupported": false
+}

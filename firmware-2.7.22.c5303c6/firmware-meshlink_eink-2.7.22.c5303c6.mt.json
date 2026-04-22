@@ -1,0 +1,35 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "meshlink_eink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-meshlink_eink-2.7.22.c5303c6.elf",
+      "md5": "1f2e5e5334e836c05cc8cf8fb8492634",
+      "bytes": 1404048
+    },
+    {
+      "name": "firmware-meshlink_eink-2.7.22.c5303c6.hex",
+      "md5": "398f3d092f3d27f41dedaaa029739dff",
+      "bytes": 2043873
+    },
+    {
+      "name": "firmware-meshlink_eink-2.7.22.c5303c6.uf2",
+      "md5": "99c04a967b4e98d726f74595dfb1b13e",
+      "bytes": 1453568
+    },
+    {
+      "name": "firmware-meshlink_eink-2.7.22.c5303c6-ota.zip",
+      "md5": "dbd68ec7448c673b8d1e25f8db8cddbd",
+      "bytes": 727597
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "meshlink_eink",
+  "activelySupported": false
+}

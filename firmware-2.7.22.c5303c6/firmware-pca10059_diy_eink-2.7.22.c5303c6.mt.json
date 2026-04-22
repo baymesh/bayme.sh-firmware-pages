@@ -1,0 +1,35 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "pca10059_diy_eink",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-pca10059_diy_eink-2.7.22.c5303c6.elf",
+      "md5": "dd024814c54ca34cdb409e0582fe7f4b",
+      "bytes": 1404976
+    },
+    {
+      "name": "firmware-pca10059_diy_eink-2.7.22.c5303c6.hex",
+      "md5": "8373e5264f6c474bac7d7561de9d5088",
+      "bytes": 2049199
+    },
+    {
+      "name": "firmware-pca10059_diy_eink-2.7.22.c5303c6.uf2",
+      "md5": "aa8f12c520652c84671f5c71227ad7e9",
+      "bytes": 1457152
+    },
+    {
+      "name": "firmware-pca10059_diy_eink-2.7.22.c5303c6-ota.zip",
+      "md5": "254954f0991afa9a708cfb04f1c0d5d5",
+      "bytes": 729517
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "pca10059_diy_eink",
+  "activelySupported": false
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "russell",
+  "mcu": "stm32wle5ccu",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-russell-2.7.22.c5303c6.elf",
+      "md5": "3f78bf434beb10b199caeb9f4c3b0d2a",
+      "bytes": 8526148
+    },
+    {
+      "name": "firmware-russell-2.7.22.c5303c6.bin",
+      "md5": "d4dd0fab5647caa25800ca44683e55bb",
+      "bytes": 227500,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-russell-2.7.22.c5303c6.hex",
+      "md5": "f29c50e97ab20e052e3904655d07f1bd",
+      "bytes": 639951
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "stm32",
+  "displayName": "russell",
+  "activelySupported": false
+}

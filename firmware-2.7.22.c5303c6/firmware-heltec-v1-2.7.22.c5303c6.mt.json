@@ -1,0 +1,83 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "heltec-v1",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-v1-2.7.22.c5303c6.elf",
+      "md5": "bb7fe387aeb2cba09b8901d704b83658",
+      "bytes": 19699960
+    },
+    {
+      "name": "firmware-heltec-v1-2.7.22.c5303c6.bin",
+      "md5": "b117a66bd51f9979eb2403f8f84f386e",
+      "bytes": 2021808,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-v1-2.7.22.c5303c6.factory.bin",
+      "md5": "3921118400453552b1efa18a4d5f8d85",
+      "bytes": 2087344
+    },
+    {
+      "name": "littlefs-heltec-v1-2.7.22.c5303c6.bin",
+      "md5": "a93e024ac241629a047e533c4aa71ca3",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 11,
+  "hwModelSlug": "HELTEC_V1",
+  "architecture": "esp32",
+  "activelySupported": false,
+  "displayName": "Heltec V1",
+  "tags": [
+    "Heltec"
+  ]
+}

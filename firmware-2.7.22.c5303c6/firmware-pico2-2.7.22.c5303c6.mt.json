@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "pico2",
+  "mcu": "rp2350",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-pico2-2.7.22.c5303c6.elf",
+      "md5": "c69b6bfda64c7620a86786b06d9e42c1",
+      "bytes": 10066980
+    },
+    {
+      "name": "firmware-pico2-2.7.22.c5303c6.bin",
+      "md5": "62ef0a22d416af7256fc7f202fdd3465",
+      "bytes": 971388,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-pico2-2.7.22.c5303c6.uf2",
+      "md5": "334c66091fb170ad26e17cbe2e769634",
+      "bytes": 1943040
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2350",
+  "displayName": "pico2",
+  "activelySupported": false
+}

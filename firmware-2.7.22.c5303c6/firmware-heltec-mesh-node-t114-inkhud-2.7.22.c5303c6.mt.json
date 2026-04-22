@@ -1,0 +1,30 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "heltec-mesh-node-t114-inkhud",
+  "mcu": "nrf52840",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-node-t114-inkhud-2.7.22.c5303c6.elf",
+      "md5": "8ffec286d0381eba41870872da29c361",
+      "bytes": 1287684
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-inkhud-2.7.22.c5303c6.hex",
+      "md5": "66506f7318fa9c5f7457b26d9bd7c59c",
+      "bytes": 1903787
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-inkhud-2.7.22.c5303c6-ota.zip",
+      "md5": "d448f22b4dd9564fa98ac910b5390d8a",
+      "bytes": 677887
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "heltec-mesh-node-t114-inkhud",
+  "activelySupported": false
+}

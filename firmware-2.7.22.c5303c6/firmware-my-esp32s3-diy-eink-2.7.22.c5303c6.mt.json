@@ -1,0 +1,78 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "my-esp32s3-diy-eink",
+  "mcu": "esp32s3",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-my-esp32s3-diy-eink-2.7.22.c5303c6.elf",
+      "md5": "0d8a46a6b01db4561fff35c36d4007e7",
+      "bytes": 23040900
+    },
+    {
+      "name": "firmware-my-esp32s3-diy-eink-2.7.22.c5303c6.bin",
+      "md5": "27456cee9793bed74e6eb53f6f6866c9",
+      "bytes": 2227680,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-my-esp32s3-diy-eink-2.7.22.c5303c6.factory.bin",
+      "md5": "f0c37f24f5d3beaebdcc9c9bd651b69c",
+      "bytes": 2293216
+    },
+    {
+      "name": "littlefs-my-esp32s3-diy-eink-2.7.22.c5303c6.bin",
+      "md5": "d499a79cda0a85fb0c6b194f87a657f0",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "my-esp32s3-diy-eink",
+  "activelySupported": false
+}

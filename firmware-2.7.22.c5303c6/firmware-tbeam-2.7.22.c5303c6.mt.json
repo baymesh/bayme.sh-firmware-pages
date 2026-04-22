@@ -1,0 +1,87 @@
+{
+  "version": "2.7.22.c5303c6",
+  "build_epoch": 1776816000,
+  "platformioTarget": "tbeam",
+  "mcu": "esp32",
+  "repo": "RCGV1/firmware-Fork",
+  "files": [
+    {
+      "name": "firmware-tbeam-2.7.22.c5303c6.elf",
+      "md5": "e8a2da02fecb31c63b921b964ca555d7",
+      "bytes": 19875328
+    },
+    {
+      "name": "firmware-tbeam-2.7.22.c5303c6.bin",
+      "md5": "f2a912b7bae1e4df331a5f03d1e57445",
+      "bytes": 2172880,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tbeam-2.7.22.c5303c6.factory.bin",
+      "md5": "022c8f7e3a88c255e8a2afacbd8bbd92",
+      "bytes": 2238416
+    },
+    {
+      "name": "littlefs-tbeam-2.7.22.c5303c6.bin",
+      "md5": "7012f0d046c5a457532d41586db68b12",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 4,
+  "hwModelSlug": "TBEAM",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam",
+  "supportLevel": 3,
+  "images": [
+    "tbeam.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}
